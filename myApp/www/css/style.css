@@ -1,12 +1,1 @@
 /* Empty. Add your own CSS if you like */
-
-.content {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-}
-body {
-    font-family: 'Raleway', sans-serif;
-}
-popup{
-    background-color:palegreen;
-}
