@@ -1,5 +1,48 @@
 <ion-view view-title="Home">
-  <ion-content>
-    <h1>Home</h1>
-  </ion-content>
+    <ion-content>
+        <div class="list">
+            <div class="list list-inset" style="margin-top:8px; margin-bottom:8px;">
+                <label class="item item-input" style="height:35px;">
+                    <i class="icon ion-search placeholder-icon"></i>
+                    <input type="search" ng-model="query" value="Search">
+                </label>
+            </div>
+            <a class="item item-avatar" href="#" ng-repeat="filter:query">
+                <img src="../img/pdf_big.png">
+                <h2>Venkman</h2>
+                <p>Back.</p>
+            </a>
+            <a class="item item-avatar" href="#">
+                <img src="venkman.jpg">
+                <h2>Venkman</h2>
+                <p>Back off.</p>
+            </a>
+            <a class="item item-avatar" href="#">
+                <img src="venkman.jpg">
+                <h2>Venkman</h2>
+                <p>Back off,.</p>
+            </a>
+            <a class="item item-avatar" href="#">
+                <img src="venkman.jpg">
+                <h2>Venkman</h2>
+                <p>Back off, .</p>
+            </a>
+            <a class="item item-avatar" href="#">
+                <img src="venkman.jpg">
+                <h2>Venkman</h2>
+                <p>Back off, ma.</p>
+            </a>
+            <a class="item item-avatar" href="#">
+                <img src="venkman.jpg">
+                <h2>Venkman</h2>
+                <p>Back off, man. .</p>
+            </a>
+            <a class="item item-avatar" href="#">
+                <img src="venkman.jpg">
+                <h2>Venkman</h2>
+                <p>Back off, man. I'm .</p>
+            </a>
+
+        </div>
+    </ion-content>
 </ion-view>
