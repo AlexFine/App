@@ -36,7 +36,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/search',
     views: {
       'menuContent': {
-        templateUrl: 'templates/search.html'
+        templateUrl: 'templates/search.html',
+        controller: 'learnCtrl'
+      }
+    }
+  })
+  .state('app.pdflist', {
+    url: '/search/:pdf',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/pdf.html',
+        controller: 'PDFlistCtrl'
       }
     }
   })

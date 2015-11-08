@@ -41,6 +41,62 @@ angular.module('starter.controllers', [])
     };
 })
 
+.controller('learnCtrl', function($scope) {
+    
+       $scope.pdfs = [
+        {
+            title: 'PDF Guide',
+            link: '../img/PDF%20Guide%20v2.pdf',
+            id: 1
+        },
+        {
+            title: 'Chill',
+            link: 5,
+            id: 2
+        },
+        {
+            title: 'Dubstep',
+            link: 3,
+            id: 3
+        },
+        {
+            title: 'Indie',
+            link: 4,
+            id: 4
+        },
+        {
+            title: 'Rap',
+            link: 5,
+            id: 5
+        },
+        {
+            title: 'Rap',
+            link: 5,
+            id: 6
+        },
+        {
+            title: 'Rap',
+            link: 5,
+            id: 7
+        },
+        {
+            title: 'Rap',
+            link: 5,
+            id: 8
+        },
+        {
+            title: 'Cowbell',
+            link: 6,
+            id: 9
+        }
+        ]
+
+})
+
+.controller('PDFlistCtrl', function($scope, $stateParams){
+    
+})
+
 .controller('PlaylistsCtrl', function ($scope) {
     $scope.playlists = [
         {
@@ -70,11 +126,11 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('HomeCtrl', function ($scope) {
+.controller('HomeCtrl', [ '$scope', 'PDFViewerService', function ($scope, pdf) {
     $scope.pdfs = [
         {
             title: 'Reggae',
-            link: 4
+            link: ' '
         },
         {
             title: 'Chill',
@@ -109,6 +165,21 @@ angular.module('starter.controllers', [])
             link: 6
         }
         ]
-})
+
+//    $scope.viewer = pdf.Instance("viewer");
+//
+//    $scope.nextPage = function () {
+//        $scope.viewer.nextPage();
+//    };
+//
+//    $scope.prevPage = function () {
+//        $scope.viewer.prevPage();
+//    };
+//
+//    $scope.pageLoaded = function (curPage, totalPages) {
+//        $scope.currentPage = curPage;
+//        $scope.totalPages = totalPages;
+//    };
+}])
 
 .controller('PlaylistCtrl', function ($scope, $stateParams) {});
