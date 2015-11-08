@@ -71,7 +71,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('HomeCtrl', function ($scope) {
-    $scope.pdf = [
+    $scope.pdfs = [
         {
             title: 'Reggae',
             link: 4
@@ -87,6 +87,18 @@ angular.module('starter.controllers', [])
         {
             title: 'Indie',
             link: 4
+        },
+        {
+            title: 'Rap',
+            link: 5
+        },
+        {
+            title: 'Rap',
+            link: 5
+        },
+        {
+            title: 'Rap',
+            link: 5
         },
         {
             title: 'Rap',

@@ -7,41 +7,12 @@
                     <input type="search" ng-model="query" value="Search">
                 </label>
             </div>
-            <a class="item item-avatar" href="#" ng-repeat="filter:query">
-                <img src="../img/pdf_big.png">
-                <h2>Venkman</h2>
-                <p>Back.</p>
+            <a class="item item-avatar" href="#" ng-repeat="pdf in pdfs | filter:query;">
+                <img src="../img/PDF%20Guide%20v2.pdf" style="width:50px; height:50px;">
+                <h2>{{pdf.title}}</h2>
+                <p>Bacmdslfk.</p>
             </a>
-            <a class="item item-avatar" href="#">
-                <img src="venkman.jpg">
-                <h2>Venkman</h2>
-                <p>Back off.</p>
-            </a>
-            <a class="item item-avatar" href="#">
-                <img src="venkman.jpg">
-                <h2>Venkman</h2>
-                <p>Back off,.</p>
-            </a>
-            <a class="item item-avatar" href="#">
-                <img src="venkman.jpg">
-                <h2>Venkman</h2>
-                <p>Back off, .</p>
-            </a>
-            <a class="item item-avatar" href="#">
-                <img src="venkman.jpg">
-                <h2>Venkman</h2>
-                <p>Back off, ma.</p>
-            </a>
-            <a class="item item-avatar" href="#">
-                <img src="venkman.jpg">
-                <h2>Venkman</h2>
-                <p>Back off, man. .</p>
-            </a>
-            <a class="item item-avatar" href="#">
-                <img src="venkman.jpg">
-                <h2>Venkman</h2>
-                <p>Back off, man. I'm .</p>
-            </a>
+            
 
         </div>
     </ion-content>
