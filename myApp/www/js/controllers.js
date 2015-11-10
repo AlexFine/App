@@ -41,60 +41,66 @@ angular.module('starter.controllers', [])
     };
 })
 
-.controller('learnCtrl', function($scope) {
-    
-       $scope.pdfs = [
+.controller('learnCtrl', function ($scope) {
+    var explore;
+    var tips;
+    var tutorials;
+    $scope.checkedArr = [];
+
+    $scope.checkSelect = function (type) {
+        if (type === 'Explore') {
+            if (explore == false) {
+                var explore = true;
+            } else if (explore == true) {
+                var explore = false;
+            }
+        }
+        if (type === 'Tips') {
+            var explore = true;
+        }
+        if (type === 'Tutorials') {
+            var explore = true;
+        }
+    };
+
+
+    $scope.pdfs = [
         {
             title: 'PDF Guide',
             link: '../img/PDF%20Guide%20v2.pdf',
+            description: 'General',
             id: 1
         },
         {
-            title: 'Chill',
-            link: 5,
+            title: 'Adding Pictures and Video to iPhone Messages',
+            link: '../img/explore/Adding%20Pictures%20and%20Video%20to%20iPhone%20Messages.pdf',
+            description: 'Explore',
             id: 2
         },
         {
-            title: 'Dubstep',
-            link: 3,
+            title: 'Amazon',
+            link: '../img/explore/Amazon.pdf',
+            description: 'Explore',
             id: 3
         },
         {
-            title: 'Indie',
-            link: 4,
+            title: 'Alarms',
+            link: '../img/explore/Alarms.pdf',
+            description: 'Explore',
             id: 4
         },
         {
-            title: 'Rap',
-            link: 5,
+            title: 'Apple ID',
+            link: '../img/explore/Apple%20ID.pdf',
+            description: 'Explore',
             id: 5
-        },
-        {
-            title: 'Rap',
-            link: 5,
-            id: 6
-        },
-        {
-            title: 'Rap',
-            link: 5,
-            id: 7
-        },
-        {
-            title: 'Rap',
-            link: 5,
-            id: 8
-        },
-        {
-            title: 'Cowbell',
-            link: 6,
-            id: 9
         }
         ]
 
 })
 
-.controller('PDFlistCtrl', function($scope, $stateParams){
-    
+.controller('PDFlistCtrl', function ($scope, $stateParams) {
+
 })
 
 .controller('PlaylistsCtrl', function ($scope) {
@@ -126,7 +132,7 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('HomeCtrl', [ '$scope', 'PDFViewerService', function ($scope, pdf) {
+.controller('HomeCtrl', ['$scope', function ($scope, pdf) {
     $scope.pdfs = [
         {
             title: 'Reggae',
@@ -166,20 +172,20 @@ angular.module('starter.controllers', [])
         }
         ]
 
-//    $scope.viewer = pdf.Instance("viewer");
-//
-//    $scope.nextPage = function () {
-//        $scope.viewer.nextPage();
-//    };
-//
-//    $scope.prevPage = function () {
-//        $scope.viewer.prevPage();
-//    };
-//
-//    $scope.pageLoaded = function (curPage, totalPages) {
-//        $scope.currentPage = curPage;
-//        $scope.totalPages = totalPages;
-//    };
+    //    $scope.viewer = pdf.Instance("viewer");
+    //
+    //    $scope.nextPage = function () {
+    //        $scope.viewer.nextPage();
+    //    };
+    //
+    //    $scope.prevPage = function () {
+    //        $scope.viewer.prevPage();
+    //    };
+    //
+    //    $scope.pageLoaded = function (curPage, totalPages) {
+    //        $scope.currentPage = curPage;
+    //        $scope.totalPages = totalPages;
+    //    };
 }])
 
 .controller('PlaylistCtrl', function ($scope, $stateParams) {});

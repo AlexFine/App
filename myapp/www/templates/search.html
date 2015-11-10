@@ -1,17 +1,40 @@
 <ion-view view-title="Learn">
-  <ion-content>
-    <div class="list">
-        <div class="list list-inset" style="margin-top:8px; margin-bottom:8px;">
+    <ion-content>
+        <div class="list">
+            <div class="list list-inset" style="margin-top:8px; margin-bottom:8px;">
                 <label class="item item-input" style="height:35px;">
                     <i class="icon ion-search placeholder-icon"></i>
                     <input type="search" ng-model="query" value="Search">
                 </label>
             </div>
- <a class="item item-avatar" href="#/app/search/{{pdfs.id}}" ng-repeat="pdf in pdfs | filter:query;">
+            <ul class="list">
+
+                <li class="item item-checkbox" ng-change="checkSelect(Explore)">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                    </label>
+                    Explore
+                </li>
+
+                <li class="item item-checkbox">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                    </label>
+                    Tips
+                </li>
+                <li class="item item-checkbox">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                    </label>
+                    Tutorials
+                </li>
+
+            </ul>
+            <a class="item item-avatar" href="#/app/search/{{pdf.id}}" ng-repeat="pdf in pdfs | filter:query;" ng-if="pdf.description != Explore">
                 <img src="{{pdf.link}}" style="width:50px; height:50px;">
                 <h2>{{pdf.title}}</h2>
-                <p>Bacmdslfk.</p>
+                <p>{{pdf.description}}</p>
             </a>
-      </div>
-  </ion-content>
+        </div>
+    </ion-content>
 </ion-view>
