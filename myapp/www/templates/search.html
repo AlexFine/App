@@ -9,7 +9,7 @@
             </div>
             <ul class="list">
 
-                <li class="item item-checkbox" ng-change="checkSelect(Explore)">
+                <li class="item item-checkbox" >
                     <label class="checkbox">
                         <input type="checkbox">
                     </label>
@@ -30,7 +30,7 @@
                 </li>
 
             </ul>
-            <a class="item item-avatar" href="#/app/search/{{pdf.id}}" ng-repeat="pdf in pdfs | filter:query;" ng-if="pdf.description != Explore">
+            <a class="item item-avatar" href="#/app/search/{{pdf.id}}" ng-repeat="pdf in pdfs | filter:query;">
                 <img src="{{pdf.link}}" style="width:50px; height:50px;">
                 <h2>{{pdf.title}}</h2>
                 <p>{{pdf.description}}</p>
