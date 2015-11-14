@@ -7,9 +7,20 @@
                     <input type="search" ng-model="query" value="Search">
                 </label>
             </div>
+                 
+       <button ng-click="prevPage()">&lt;</button>
+<button ng-click="nextPage()">&gt;</button>
+<br>
+<span>{{currentPage}}/{{totalPages}}</span>
+<br>
+            
+            <pdfviewer src="../img/PDF%20Guide%20v2.pdf" on-page-load='pageLoaded(page,total)' id="viewer"></pdfviewer>
+            
+      
+
             <ul class="list">
 
-                <li class="item item-checkbox" >
+                <li class="item item-checkbox">
                     <label class="checkbox">
                         <input type="checkbox">
                     </label>
