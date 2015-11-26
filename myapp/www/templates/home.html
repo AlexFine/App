@@ -1,5 +1,13 @@
 <ion-view view-title="Home">
     <ion-content>
         hello
+        
+          <button class="button button-dark" ng-click="showPopup()">
+      show
+    </button>
+   
+    <script id="popup-template.html" type="text/ng-template">
+      <input ng-model="data.wifi" type="text" placeholder="Password">
+    </script>
     </ion-content>
 </ion-view>

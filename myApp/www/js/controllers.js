@@ -41,7 +41,7 @@ angular.module('starter.controllers', ['ngPDFViewer'])
     };
 })
 
-.controller('learnCtrl', ['$scope', 'PDFViewerService', function ($scope, pdf) {
+.controller('learnCtrl', ['$scope', 'PDFViewerService', function ($scope, pdf, $ionicModal, $ionicPopup, $timeout) {
     var explore;
     var tips;
     var tutorials;
@@ -63,7 +63,7 @@ angular.module('starter.controllers', ['ngPDFViewer'])
         }
     };
 
- 
+
 
     $scope.pdfs = [
         {
@@ -97,8 +97,115 @@ angular.module('starter.controllers', ['ngPDFViewer'])
             id: 5
         }
         ]
-    
-       $scope.viewer = pdf.Instance("viewer");
+
+
+    // Triggered on a button click, or some other target
+    $scope.showPopup = function () {
+      
+        $scope.data = {}
+
+        // An elaborate, custom popup
+        var myPopup = $ionicPopup.show({
+            template: '<input type="password" ng-model="data.wifi">',
+            title: 'Enter Wi-Fi Password',
+            subTitle: 'Please use normal things',
+            scope: $scope,
+            buttons: [
+                {
+                    text: 'Cancel'
+                },
+                {
+                    text: '<b>Save</b>',
+                    type: 'button-positive',
+                    onTap: function (e) {
+                        if (!$scope.data.wifi) {
+                            //don't allow the user to close unless he enters wifi password
+                            e.preventDefault();
+                        } else {
+                            return $scope.data.wifi;
+                        }
+                    }
+      }
+    ]
+        });
+        myPopup.then(function (res) {
+            console.log('Tapped!', res);
+        });
+        $timeout(function () {
+            myPopup.close(); //close the popup after 3 seconds for some reason
+        }, 3000);
+    };
+    // A confirm dialog
+    $scope.showConfirm = function () {
+        var confirmPopup = $ionicPopup.confirm({
+            title: 'Consume Ice Cream',
+            template: 'Are you sure you want to eat this ice cream?'
+        });
+        confirmPopup.then(function (res) {
+            if (res) {
+                console.log('You are sure');
+            } else {
+                console.log('You are not sure');
+            }
+        });
+    };
+
+    // An alert dialog
+    $scope.showAlert = function () {
+        var alertPopup = $ionicPopup.alert({
+            title: 'Don\'t eat that!',
+            template: 'It might taste good'
+        });
+        alertPopup.then(function (res) {
+            console.log('Thank you for not eating my delicious ice cream cone');
+        });
+    };
+    //       $scope.viewer = pdf.Instance("viewer");
+    //
+    //    $scope.nextPage = function () {
+    //        $scope.viewer.nextPage();
+    //    };
+    //
+    //    $scope.prevPage = function () {
+    //        $scope.viewer.prevPage();
+    //    };
+    //
+    //    $scope.pageLoaded = function (curPage, totalPages) {
+    //        $scope.currentPage = curPage;
+    //        $scope.totalPages = totalPages;
+    //    };
+    //
+
+
+    //   $ionicModal.fromTemplateUrl('templates/search.html', {
+    //    scope: $scope,
+    //    animation: 'slide-in-up'
+    //  }).then(function(modal) {
+    //    $scope.modal = modal;
+    //  });
+    //  $scope.openModal = function() {
+    //    $scope.modal.show();
+    //  };
+    //  $scope.closeModal = function() {
+    //    $scope.modal.hide();
+    //  };
+    //  //Cleanup the modal when we're done with it!
+    //  $scope.$on('$destroy', function() {
+    //    $scope.modal.remove();
+    //  });
+    //  // Execute action on hide modal
+    //  $scope.$on('modal.hidden', function() {
+    //    // Execute action
+    //  });
+    //  // Execute action on remove modal
+    //  $scope.$on('modal.removed', function() {
+    //    // Execute action
+    //  });
+
+}])
+
+.controller('PDFlistCtrl', ['$scope', 'PDFViewerService', function ($scope, $stateParams, pdf) {
+    //    $scope.viewer = pdf.Instance("viewer");
 
     $scope.nextPage = function () {
         $scope.viewer.nextPage();
@@ -113,110 +220,106 @@ angular.module('starter.controllers', ['ngPDFViewer'])
         $scope.totalPages = totalPages;
     };
 
-
 }])
 
-.controller('PDFlistCtrl', ['$scope', 'PDFViewerService', function ($scope, $stateParams, pdf) {
-//            $scope.viewer = pdf.Instance("viewer");
-
-            $scope.nextPage = function () {
-                $scope.viewer.nextPage();
-            };
-
-            $scope.prevPage = function () {
-                $scope.viewer.prevPage();
-            };
-
-            $scope.pageLoaded = function (curPage, totalPages) {
-                $scope.currentPage = curPage;
-                $scope.totalPages = totalPages;
-            };
-
-}])
-
-        .controller('PlaylistsCtrl', function ($scope) {
-            $scope.playlists = [
-                {
-                    title: 'Reggae',
-                    id: 1
+.controller('PlaylistsCtrl', function ($scope) {
+    $scope.playlists = [
+        {
+            title: 'Reggae',
+            id: 1
         },
-                {
-                    title: 'Chill',
-                    id: 2
+        {
+            title: 'Chill',
+            id: 2
         },
-                {
-                    title: 'Dubstep',
-                    id: 3
+        {
+            title: 'Dubstep',
+            id: 3
         },
-                {
-                    title: 'Indie',
-                    id: 4
+        {
+            title: 'Indie',
+            id: 4
         },
-                {
-                    title: 'Rap',
-                    id: 5
+        {
+            title: 'Rap',
+            id: 5
         },
-                {
-                    title: 'Cowbell',
-                    id: 6
+        {
+            title: 'Cowbell',
+            id: 6
         }
   ];
-        })
+})
 
-        .controller('HomeCtrl', ['$scope', function ($scope, pdf) {
-            $scope.pdfs = [
-                {
-                    title: 'Reggae',
-                    link: ' '
-        },
-                {
-                    title: 'Chill',
-                    link: 2
-        },
-                {
-                    title: 'Dubstep',
-                    link: 3
-        },
-                {
-                    title: 'Indie',
-                    link: 4
-        },
-                {
-                    title: 'Rap',
-                    link: 5
-        },
-                {
-                    title: 'Rap',
-                    link: 5
-        },
-                {
-                    title: 'Rap',
-                    link: 5
-        },
-                {
-                    title: 'Rap',
-                    link: 5
-        },
-                {
-                    title: 'Cowbell',
-                    link: 6
-        }
-        ]
+.controller('HomeCtrl', ['$scope', function ($scope, pdf, $ionicPopup, $timeout) {
+//    $scope.pdfs = [
+//        {
+//            title: 'Reggae',
+//            link: ' '
+//        },
+//        {
+//            title: 'Chill',
+//            link: 2
+//        },
+//        {
+//            title: 'Dubstep',
+//            link: 3
+//        },
+//        {
+//            title: 'Indie',
+//            link: 4
+//        },
+//        {
+//            title: 'Rap',
+//            link: 5
+//        },
+//        {
+//            title: 'Rap',
+//            link: 5
+//        },
+//        {
+//            title: 'Rap',
+//            link: 5
+//        },
+//        {
+//            title: 'Rap',
+//            link: 5
+//        },
+//        {
+//            title: 'Cowbell',
+//            link: 6
+//        }
+//        ]
 
-            //    $scope.viewer = pdf.Instance("viewer");
-            //
-            //    $scope.nextPage = function () {
-            //        $scope.viewer.nextPage();
-            //    };
-            //
-            //    $scope.prevPage = function () {
-            //        $scope.viewer.prevPage();
-            //    };
-            //
-            //    $scope.pageLoaded = function (curPage, totalPages) {
-            //        $scope.currentPage = curPage;
-            //        $scope.totalPages = totalPages;
-            //    };
+    //    $scope.viewer = pdf.Instance("viewer");
+    //
+    //    $scope.nextPage = function () {
+    //        $scope.viewer.nextPage();
+    //    };
+    //
+    //    $scope.prevPage = function () {
+    //        $scope.viewer.prevPage();
+    //    };
+    //
+    //    $scope.pageLoaded = function (curPage, totalPages) {
+    //        $scope.currentPage = curPage;
+    //        $scope.totalPages = totalPages;
+    //    };
+    
+    // Triggered on a button click, or some other target
+  $scope.data = {}
+  
+  // Triggered on a button click, or some other target
+  $scope.showPopup = function() {
+    var alertPopup = $ionicPopup.alert({
+      title: 'Dont eat that!',
+      template: 'It might taste good'
+    });
+    alertPopup.then(function(res) {
+      console.log('Thank you for not eating my delicious ice cream cone');
+    });
+  };
+    
 }])
 
-        .controller('PlaylistCtrl', function ($scope, $stateParams) {});
+.controller('PlaylistCtrl', function ($scope, $stateParams) {});
