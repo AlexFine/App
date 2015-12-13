@@ -7,7 +7,7 @@
                     <input type="search" ng-model="query" value="Search">
                 </label>
             </div>
-                 
+                 <script>console.log("loaded");</script>
 <!--
        <button ng-click="prevPage()">&lt;</button>
 
@@ -25,9 +25,9 @@
          
 
 </script>
-
+            
             <ul class="list">
-
+                
                 <li class="item item-checkbox">
                     <label class="checkbox">
                         <input type="checkbox">
@@ -50,11 +50,12 @@
 
             </ul>
 <!--        <a ng-click="showPopup()">Hello</a>-->
-            <a class="item item-avatar" href="#/app/search/{{$index}}" ng-click="showPopup()" ng-repeat="pdf in pdfs | filter:query;">
+            <a class="item item-avatar" href="#/app/search/{{$index}}" ng-click="showPopup()" ng-repeat="pdf in pdfs | filter:query;" ng-controller= "learnCtrl">
                 <img src="{{pdf.link}}" style="width:50px; height:50px;">
-                <h2>{{pdf.title}} + {{$index}}</h2>
+                <h2>{{pdf.title}} + {{$index}} +{{pdf.link}}</h2>
                 <p>{{pdf.description}}</p>
             </a>
+        
         </div>
     </ion-content>
 </ion-view>

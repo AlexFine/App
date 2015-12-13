@@ -7,11 +7,11 @@
        <button ng-click="prevPage()">&lt;</button>
 <button ng-click="nextPage()">&gt;</button>
 <br>
-<span>{{currentPage}}/{{totalPages}}</span>
+<span>{{currentPage}}current pages/total pages{{totalPages}}</span>
 <br>
             
-            <pdfviewer src="../img/PDF%20Guide%20v2.pdf" on-page-load='pageLoaded(page,total)' id="viewer"></pdfviewer>
+            <pdfviewer src="{{pdfLink}}" on-page-load='pageLoaded(page,total)' id="viewer"></pdfviewer>
             
-      
+      </div>
   </ion-content>
 </ion-view>

@@ -1,5 +1,12 @@
 {
     "jscodehints.detectedExclusions": [
-        "/Users/alexfine/Desktop/TechnoApp/myapp/www/js/app.js"
+        "/Users/alexfine/Desktop/TechnoApp/myapp/www/js/app.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/ng-pdfviewer.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/example/test.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/example/pdf.worker.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/example/pdf.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/example/pdf.compat.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/example/ng-pdfviewer.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/dist/ng-pdfviewer.min.js"
     ]
 }

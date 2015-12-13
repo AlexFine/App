@@ -41,12 +41,12 @@ angular.module('starter.controllers', ['ngPDFViewer'])
     };
 })
 
-.controller('learnCtrl', ['$scope', 'PDFViewerService', function ($scope, pdf, $ionicModal, $ionicPopup, $timeout) {
+.controller('learnCtrl', ['$scope', 'PDFViewerService', '$location', function ($scope, pdf,$location, $ionicModal, $ionicPopup, $timeout) {
     var explore;
     var tips;
     var tutorials;
     $scope.checkedArr = [];
-
+    
     $scope.checkSelect = function (type) {
         if (type === 'Explore') {
             if (explore == false) {
@@ -90,76 +90,90 @@ angular.module('starter.controllers', ['ngPDFViewer'])
             description: 'Explore',
             id: 4
         },
-        {
-            title: 'Apple ID',
+        {          title: 'Apple ID',
             link: '../img/explore/Apple%20ID.pdf',
             description: 'Explore',
             id: 5
         }
         ]
+// $scope.pdfLink = '../img/explore/Apple%20ID.pdf';
+    var url = $location.path();
+lastChrst = url.substr(-1);
+    if(url == ('/app/search/'+lastChrst)){
+    
+    lastChr =parseInt(lastChrst);
 
-
+    console.log(url);
+//   
+//    console.log(lastChr);
+    if(lastChr != undefined){
+//        console.log($scope.pdfs[lastChr]["link"]);
+    console.log($scope.pdfs[lastChr]["link"]);
+    $scope.pdfLink = $scope.pdfs[lastChr]["link"];
+    };
+    };
+        
     // Triggered on a button click, or some other target
-    $scope.showPopup = function () {
-      
-        $scope.data = {}
-
-        // An elaborate, custom popup
-        var myPopup = $ionicPopup.show({
-            template: '<input type="password" ng-model="data.wifi">',
-            title: 'Enter Wi-Fi Password',
-            subTitle: 'Please use normal things',
-            scope: $scope,
-            buttons: [
-                {
-                    text: 'Cancel'
-                },
-                {
-                    text: '<b>Save</b>',
-                    type: 'button-positive',
-                    onTap: function (e) {
-                        if (!$scope.data.wifi) {
-                            //don't allow the user to close unless he enters wifi password
-                            e.preventDefault();
-                        } else {
-                            return $scope.data.wifi;
-                        }
-                    }
-      }
-    ]
-        });
-        myPopup.then(function (res) {
-            console.log('Tapped!', res);
-        });
-        $timeout(function () {
-            myPopup.close(); //close the popup after 3 seconds for some reason
-        }, 3000);
-    };
-    // A confirm dialog
-    $scope.showConfirm = function () {
-        var confirmPopup = $ionicPopup.confirm({
-            title: 'Consume Ice Cream',
-            template: 'Are you sure you want to eat this ice cream?'
-        });
-        confirmPopup.then(function (res) {
-            if (res) {
-                console.log('You are sure');
-            } else {
-                console.log('You are not sure');
-            }
-        });
-    };
-
-    // An alert dialog
-    $scope.showAlert = function () {
-        var alertPopup = $ionicPopup.alert({
-            title: 'Don\'t eat that!',
-            template: 'It might taste good'
-        });
-        alertPopup.then(function (res) {
-            console.log('Thank you for not eating my delicious ice cream cone');
-        });
-    };
+//    $scope.showPopup = function () {
+//      
+//        $scope.data = {}
+//
+//        // An elaborate, custom popup
+//        var myPopup = $ionicPopup.show({
+//            template: '<input type="password" ng-model="data.wifi">',
+//            title: 'Enter Wi-Fi Password',
+//            subTitle: 'Please use normal things',
+//            scope: $scope,
+//            buttons: [
+//                {
+//                    text: 'Cancel'
+//                },
+//                {
+//                    text: '<b>Save</b>',
+//                    type: 'button-positive',
+//                    onTap: function (e) {
+//                        if (!$scope.data.wifi) {
+//                            //don't allow the user to close unless he enters wifi password
+//                            e.preventDefault();
+//                        } else {
+//                            return $scope.data.wifi;
+//                        }
+//                    }
+//      }
+//    ]
+//        });
+//        myPopup.then(function (res) {
+//            console.log('Tapped!', res);
+//        });
+//        $timeout(function () {
+//            myPopup.close(); //close the popup after 3 seconds for some reason
+//        }, 3000);
+//    };
+//    // A confirm dialog
+//    $scope.showConfirm = function () {
+//        var confirmPopup = $ionicPopup.confirm({
+//            title: 'Consume Ice Cream',
+//            template: 'Are you sure you want to eat this ice cream?'
+//        });
+//        confirmPopup.then(function (res) {
+//            if (res) {
+//                console.log('You are sure');
+//            } else {
+//                console.log('You are not sure');
+//            }
+//        });
+//    };
+//
+//    // An alert dialog
+//    $scope.showAlert = function () {
+//        var alertPopup = $ionicPopup.alert({
+//            title: 'Don\'t eat that!',
+//            template: 'It might taste good'
+//        });
+//        alertPopup.then(function (res) {
+//            console.log('Thank you for not eating my delicious ice cream cone');
+//        });
+//    };
            $scope.viewer = pdf.Instance("viewer");
     
         $scope.nextPage = function () {
@@ -251,7 +265,7 @@ angular.module('starter.controllers', ['ngPDFViewer'])
   ];
 })
 
-.controller('HomeCtrl', ['$scope', function ($scope, pdf, $ionicPopup, $timeout) {
+.controller('HomeCtrl', ['$scope', '$ionicPopup', function ($scope, pdf, $ionicPopup, $timeout) {
 //    $scope.pdfs = [
 //        {
 //            title: 'Reggae',
