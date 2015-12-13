@@ -336,4 +336,55 @@ lastChrst = url.substr(-1);
     
 }])
 
-.controller('PlaylistCtrl', function ($scope, $stateParams) {});
+.controller('PlaylistCtrl', function ($scope, $stateParams) {})
+.controller('help', function ($scope, $http, $log,  $timeout) {
+    $scope.subjectListOptions = {
+      'bug': 'Report a Bug',
+      'account': 'Account Problems',
+      'mobile': 'Mobile',
+      'user': 'Report a Malicious User',
+      'other': 'Other'
+    };
+
+    // Inititate the promise tracker to track form submissions.
+
+    // Form submit handler.
+    $scope.submit = function(form) {
+      // Trigger validation flag.
+      $scope.submitted = true;
+
+      // If form is invalid, return and let AngularJS show validation errors.
+      if (form.$invalid) {
+        return;
+      }
+
+      // Default values for the request.
+      var config = {
+        params : {
+          
+          'name' : $scope.name,
+          'email' : $scope.email,
+          
+          'comments' : $scope.comments
+        },
+      };
+console.log(config);
+      // Perform JSONP request.
+     
+        
+          
+            $scope.name = null;
+            $scope.email = null;
+            $scope.subjectList = null;
+            $scope.url = null;
+            $scope.comments = null;
+            $scope.messages = 'Your form has been sent!';
+            $scope.submitted = false;
+        
+       
+
+      // Track the request and show its progress to the user.
+      
+    };
+  });
+

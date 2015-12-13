@@ -1,20 +1,68 @@
 <ion-view view-title="Get Help">
   <ion-content>
       <center>
+          
           <br><p>If you have any questions feel free to fill out our contact form. We will promptly follow up with you and are happy to help. </p>
       <div class="list list-inset">
+          <div data-ng-controller="help">
+    <div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
+    <div data-ng-show="progress.active()" style="color: red; font-size: 50px;">Sending&hellip;</div>
+    <form name="helpForm" novalidate role="form">
+        
+        
+            
+            
+      <div class="form-group">      
   <label class="item item-input">
-    <input type="text" placeholder="Name">
+      <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
+    <input type="text" placeholder="Name" name="name" class="form-control" data-ng-model="name" required/>
+      
   </label>
-  <label class="item item-input">
-    <input type="text" placeholder="Email or Phone Number">
-  </label>
-          <label class="item item-input">
-    <input type="text" placeholder="Question">
-  </label>
-</div>
-          <a class="button button-outline icon-right ion-checkmark-round button-balanced" style="width:95%;">Submit</a>
+        </div>
+        
+        
+        
+        <div class="form-group">
+            <label class="item item-input">
+        
+        <span class="label label-danger" data-ng-show="submitted && helpForm.email.$error.required">Required!</span>
+        <span class="label label-danger" data-ng-show="submitted && helpForm.$error.email">Invalid email!</span>
+        <input type="email" name="email" data-ng-model="email" class="form-control" placeholder="Email" required />  
+                </label>
+      </div>
 
+  
+        <div class="form-group">
+            <label class="item item-input">
+        
+        <span class="label label-danger" data-ng-show="submitted && helpForm.question.$error.required">Required!</span>
+        <textarea name="question" data-ng-model="comments" class="form-control" placeholder="Question" required></textarea>
+                </label>
+      </div>
+        
+        
+        
+        
+          
+
+  
+        
+        
+        
+        
+        
+
+              
+              
+              
+              
+          <a class="button button-outline icon-right ion-checkmark-round button-balanced" style="width:95%;"data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)" >Submit</a></form>
+</div>
+  </div>
           </center>
+      
+      
+      
+       
   </ion-content>
 </ion-view>

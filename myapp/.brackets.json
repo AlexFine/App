@@ -7,6 +7,10 @@
         "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/example/pdf.js",
         "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/example/pdf.compat.js",
         "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/example/ng-pdfviewer.js",
-        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/dist/ng-pdfviewer.min.js"
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/ng-pdfviewer-develop/dist/ng-pdfviewer.min.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/lib/pdfjs-dist/web/pdf_viewer.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/lib/pdfjs-dist/web/compatibility.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/lib/pdfjs-dist/build/pdf.worker.js",
+        "/Users/samschickler/Desktop/Alex Fine/myApp/www/promise/promise-tracker.js"
     ]
 }
