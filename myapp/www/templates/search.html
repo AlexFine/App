@@ -30,27 +30,27 @@
                 
                 <li class="item item-checkbox">
                     <label class="checkbox">
-                        <input type="checkbox">
+                        <input type="checkbox" ng-model="explore">
                     </label>
                     Explore
                 </li>
 
                 <li class="item item-checkbox">
                     <label class="checkbox">
-                        <input type="checkbox">
+                        <input type="checkbox" ng-model="tips">
                     </label>
                     Tips
                 </li>
                 <li class="item item-checkbox">
                     <label class="checkbox">
-                        <input type="checkbox">
+                        <input type="checkbox" ng-model="tutorials">
                     </label>
                     Tutorials
                 </li>
 
             </ul>
 <!--        <a ng-click="showPopup()">Hello</a>-->
-            <a class="item item-avatar" href="#/app/search/{{$index}}" ng-click="showPopup()" ng-repeat="pdf in pdfs | filter:query;" ng-controller= "learnCtrl">
+            <a class="item item-avatar" href="#/app/search/{{$index}}" ng-click="showPopup()" ng-repeat="pdf in pdfs;" ng-if="((tutorials && pdf.description == 'Tutorials') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'tips'))|| (!tutorials && !tips && !explore)">
           
  
                 <img src="{{pdf.link}}" style="width:50px; height:50px;">

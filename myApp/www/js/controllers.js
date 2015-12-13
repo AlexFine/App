@@ -42,29 +42,31 @@ angular.module('starter.controllers', ['ngPDFViewer'])
 })
 
 .controller('learnCtrl', ['$scope', 'PDFViewerService', '$location', function ($scope, pdf,$location, $ionicModal, $ionicPopup, $timeout) {
-    var explore;
-    var tips;
-    var tutorials;
-    $scope.checkedArr = [];
-    
-    $scope.checkSelect = function (type) {
-        if (type === 'Explore') {
-            if (explore == false) {
-                var explore = true;
-            } else if (explore == true) {
-                var explore = false;
-            }
-        }
-        if (type === 'Tips') {
-            var explore = true;
-        }
-        if (type === 'Tutorials') {
-            var explore = true;
-        }
-    };
+//    var explore;
+//    var tips;
+//    var tutorials;
+//    $scope.checkedArr = [];
+//    
+//    $scope.checkSelect = function (type) {
+//        if (type === 'Explore') {
+//            if (explore == false) {
+//                var explore = true;
+//            } else if (explore == true) {
+//                var explore = false;
+//            }
+//        }
+//        if (type === 'Tips') {
+//            var explore = true;
+//        }
+//        if (type === 'Tutorials') {
+//            var explore = true;
+//        }
+//    };
 
 
-
+$scope.tutorials = false;
+    $scope.tips = false;
+    $scope.explore = false;
     $scope.pdfs = [
         {
             title: 'PDF Guide',
@@ -337,6 +339,9 @@ lastChrst = url.substr(-1);
 }])
 
 .controller('PlaylistCtrl', function ($scope, $stateParams) {})
+.controller('pdfList', function ($scope) {
+    
+})
 .controller('help', function ($scope, $http, $log,  $timeout) {
     $scope.subjectListOptions = {
       'bug': 'Report a Bug',
