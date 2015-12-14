@@ -7,6 +7,7 @@
                     <input type="search" ng-model="query" value="Search">
                 </label>
             </div>
+
                  <script>console.log("loaded");</script>
 <!--
        <button ng-click="prevPage()">&lt;</button>
@@ -15,19 +16,19 @@
 <br>
 <span>{{currentPage}}/{{totalPages}}</span>
 <br>
-            
+
             <pdfviewer src="../img/PDF%20Guide%20v2.pdf" on-page-load='pageLoaded(page,total)' id="viewer"></pdfviewer>
-            
+
       <script id="templates/search.html" type="text/ng-template">
 
 -->
-            
-         
 
-</script>
-            
+
+
+
+
             <ul class="list">
-                
+
                 <li class="item item-checkbox">
                     <label class="checkbox">
                         <input type="checkbox" ng-model="explore">
@@ -50,14 +51,15 @@
 
             </ul>
 <!--        <a ng-click="showPopup()">Hello</a>-->
-            <a class="item item-avatar" href="#/app/search/{{$index}}" ng-click="showPopup()" ng-repeat="pdf in pdfs;" ng-if="((tutorials && pdf.description == 'Tutorials') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'tips'))|| (!tutorials && !tips && !explore)">
-          
- 
+
+            <a class="item item-avatar"  ng-click="openPdf({{$index}});" ng-repeat="pdf in pdfs;" ng-if="((tutorials && pdf.description == 'Tutorials') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'tips'))|| (!tutorials && !tips && !explore)">
+
+
                 <img src="{{pdf.link}}" style="width:50px; height:50px;">
                 <h2>{{pdf.title}} + {{$index}}</h2>
                 <p>{{pdf.description}}</p>
             </a>
-        
+
         </div>
     </ion-content>
 </ion-view>

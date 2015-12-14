@@ -2,16 +2,16 @@
   <ion-content>
       <div ng-controller="learnCtrl" class="text-center container">
     <h1>{{pdf.title}} PDFF {{$index}} {{pdfs.id}}</h1>
-      
-      
+
+
        <button ng-click="prevPage()">&lt;</button>
 <button ng-click="nextPage()">&gt;</button>
 <br>
 <!--<span>{{currentPage}}current pages/total pages{{totalPages}}</span>-->
 <br>
-            
-            <pdfviewer src="{{pdfLink}}" on-page-load='pageLoaded(page,total)' id="viewer"></pdfviewer>
-            
+
+
+
       </div>
   </ion-content>
 </ion-view>

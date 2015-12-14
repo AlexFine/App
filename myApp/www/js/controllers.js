@@ -1,4 +1,4 @@
-angular.module('starter.controllers', ['ngPDFViewer'])
+angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function ($scope, $ionicModal, $timeout) {
 
@@ -41,12 +41,12 @@ angular.module('starter.controllers', ['ngPDFViewer'])
     };
 })
 
-.controller('learnCtrl', ['$scope', 'PDFViewerService', '$location', function ($scope, pdf,$location, $ionicModal, $ionicPopup, $timeout) {
+.controller('learnCtrl', ['$scope',  '$location', function ($scope, $location) {
 //    var explore;
 //    var tips;
 //    var tutorials;
 //    $scope.checkedArr = [];
-//    
+//
 //    $scope.checkSelect = function (type) {
 //        if (type === 'Explore') {
 //            if (explore == false) {
@@ -98,26 +98,56 @@ $scope.tutorials = false;
             id: 5
         }
         ]
-// $scope.pdfLink = '../img/explore/Apple%20ID.pdf';
-    var url = $location.path();
-lastChrst = url.substr(-1);
-    if(url == ('/app/search/'+lastChrst)){
-    
-    lastChr =parseInt(lastChrst);
-
-    console.log(url);
-//   
+    var defaultOptions = {
+      location: 'yes',
+      clearcache: 'yes',
+      toolbar: 'yes'
+    };
+    $scope.openPdf = function(num){
+      window.open($scope.pdfs[num]["link"],'_blank', defaultOptions);
+    };
+//// $scope.pdfLink = '../img/explore/Apple%20ID.pdf';
+//    var url = $location.path();
+//lastChrst = url.substr(-1);
+//    if(url == ('/app/search/'+lastChrst)){
+//
+//    lastChr =parseInt(lastChrst);
+//
+//    console.log($scope.pdfs[lastChr]["link"] );
+//
 //    console.log(lastChr);
-    if(lastChr != undefined){
+//    if(lastChr != undefined){
+//      window.open($scope.pdfs[lastChr]["link"],'_blank', defaultOptions);
+//      $rootScope.$on('$cordovaInAppBrowser:exit', function(e, event){
+//
+//
+//
+//
+//      });
+      //$cordovaFileOpener2.open($scope.pdfs[lastChr]["link"]
+      //).then(function() {
+      //    console.log("worked");
+      //    // file opened successfully
+      //  }, function(err) {
+      //    console.log("error")
+          // An error occurred. Show a message to the user
+        //});
+      //$cordovaInAppBrowser.open('$scope.pdfs[lastChr]["link"]', '_blank', options)
+      //  .then(function(event) {
+      //    // success
+      //  })
+      //  .catch(function(event) {
+      //    // error
+      //  });
 //        console.log($scope.pdfs[lastChr]["link"]);
-    console.log($scope.pdfs[lastChr]["link"]);
-    $scope.pdfLink = $scope.pdfs[lastChr]["link"];
-    };
-    };
-        
+//    console.log($scope.pdfs[lastChr]["link"]);
+//    $scope.pdfLink = $scope.pdfs[lastChr]["link"];
+//    };
+//    };
+
     // Triggered on a button click, or some other target
 //    $scope.showPopup = function () {
-//      
+//
 //        $scope.data = {}
 //
 //        // An elaborate, custom popup
@@ -176,21 +206,21 @@ lastChrst = url.substr(-1);
 //            console.log('Thank you for not eating my delicious ice cream cone');
 //        });
 //    };
-           $scope.viewer = pdf.Instance("viewer");
-    
-        $scope.nextPage = function () {
-            $scope.viewer.nextPage();
-        };
-    
-        $scope.prevPage = function () {
-            $scope.viewer.prevPage();
-        };
-    
-        $scope.pageLoaded = function (curPage, totalPages) {
-            $scope.currentPage = curPage;
-            $scope.totalPages = totalPages;
-        };
-    
+//           $scope.viewer = pdf.Instance("viewer");
+//
+//        $scope.nextPage = function () {
+//            $scope.viewer.nextPage();
+//        };
+//
+//        $scope.prevPage = function () {
+//            $scope.viewer.prevPage();
+//        };
+//
+//        $scope.pageLoaded = function (curPage, totalPages) {
+//            $scope.currentPage = curPage;
+//            $scope.totalPages = totalPages;
+//        };
+
 
 
     //   $ionicModal.fromTemplateUrl('templates/search.html', {
@@ -220,7 +250,7 @@ lastChrst = url.substr(-1);
 
 }])
 
-.controller('PDFlistCtrl', ['$scope', 'PDFViewerService', function ($scope, $stateParams, pdf) {
+.controller('PDFlistCtrl', ['$scope', function ($scope, $stateParams) {
     //    $scope.viewer = pdf.Instance("viewer");
 
     $scope.nextPage = function () {
@@ -321,10 +351,10 @@ lastChrst = url.substr(-1);
     //        $scope.currentPage = curPage;
     //        $scope.totalPages = totalPages;
     //    };
-    
+
     // Triggered on a button click, or some other target
   $scope.data = {}
-  
+
   // Triggered on a button click, or some other target
   $scope.showPopup = function() {
     var alertPopup = $ionicPopup.alert({
@@ -335,12 +365,12 @@ lastChrst = url.substr(-1);
       console.log('Thank you for not eating my delicious ice cream cone');
     });
   };
-    
+
 }])
 
 .controller('PlaylistCtrl', function ($scope, $stateParams) {})
 .controller('pdfList', function ($scope) {
-    
+
 })
 .controller('help', function ($scope, $http, $log,  $timeout) {
     $scope.subjectListOptions = {
@@ -366,18 +396,18 @@ lastChrst = url.substr(-1);
       // Default values for the request.
       var config = {
         params : {
-          
+
           'name' : $scope.name,
           'email' : $scope.email,
-          
+
           'comments' : $scope.comments
         },
       };
 console.log(config);
       // Perform JSONP request.
-     
-        
-          
+
+
+
             $scope.name = null;
             $scope.email = null;
             $scope.subjectList = null;
@@ -385,11 +415,11 @@ console.log(config);
             $scope.comments = null;
             $scope.messages = 'Your form has been sent!';
             $scope.submitted = false;
-        
-       
+
+
 
       // Track the request and show its progress to the user.
-      
+
     };
   });
 

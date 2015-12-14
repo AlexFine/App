@@ -4,8 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'ngPDFViewer'])
-
+angular.module('starter', ['ionic', 'starter.controllers'])
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -21,7 +20,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngPDFViewer'])
     }
   });
 })
-
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
@@ -41,16 +39,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngPDFViewer'])
       }
     }
   })
-  .state('app.pdflist', {
-    url: '/search/:pdf',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/pdf.html',
-        controller: 'PDFlistCtrl'
-      }
-    }
-  })
-  
+
+
     .state('app.home', {
     url: '/home',
     views: {
