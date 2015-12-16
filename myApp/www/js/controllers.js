@@ -70,30 +70,31 @@ $scope.tutorials = false;
     $scope.pdfs = [
         {
             title: 'PDF Guide',
-            link: '../img/PDF%20Guide%20v2.pdf',
+            link: '/img/PDF%20Guide%20v2.pdf',
+          //link: 'www.google.com',
             description: 'General',
             id: 1
         },
         {
             title: 'Adding Pictures and Video to iPhone Messages',
-            link: '../img/explore/Adding%20Pictures%20and%20Video%20to%20iPhone%20Messages.pdf',
+            link: '/img/explore/Adding%20Pictures%20and%20Video%20to%20iPhone%20Messages.pdf',
             description: 'Explore',
             id: 2
         },
         {
             title: 'Amazon',
-            link: '../img/explore/Amazon.pdf',
+            link: 'www.google.com',
             description: 'Explore',
             id: 3
         },
         {
             title: 'Alarms',
-            link: '../img/explore/Alarms.pdf',
+            link: 'http://www.twitter.com/nraboy',
             description: 'Explore',
             id: 4
         },
         {          title: 'Apple ID',
-            link: '../img/explore/Apple%20ID.pdf',
+            link: '/img/explore/Apple%20ID.pdf',
             description: 'Explore',
             id: 5
         }
@@ -104,7 +105,12 @@ $scope.tutorials = false;
       toolbar: 'yes'
     };
     $scope.openPdf = function(num){
-      window.open($scope.pdfs[num]["link"],'_blank', defaultOptions);
+      console.log($scope.pdfs[num]["link"]);
+      path = window.location.href.replace('/\/g','/').replace(/\/[^\/]*$/, '') +"/www" + $scope.pdfs[num]["link"]
+      //PDFReader.open(path);
+      console.log(path);
+      window.open(path,'_blank', defaultOptions);
+      console.log(path);
     };
 //// $scope.pdfLink = '../img/explore/Apple%20ID.pdf';
 //    var url = $location.path();
