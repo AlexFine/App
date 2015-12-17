@@ -400,43 +400,49 @@ $scope.tutorials = false;
 
 })
 .controller('help', function ($scope, $http, $log,  $timeout) {
-    $scope.subjectListOptions = {
-      'bug': 'Report a Bug',
-      'account': 'Account Problems',
-      'mobile': 'Mobile',
-      'user': 'Report a Malicious User',
-      'other': 'Other'
-    };
 
     // Inititate the promise tracker to track form submissions.
 
+
+    //$scope.link = "mailto:"+email.to+"?subject="+encodeURIComponent(email.subject)+"&body="+encodeURIComponent(email.body);
     // Form submit handler.
+    console.log($scope.link)
     $scope.submit = function(form) {
       // Trigger validation flag.
       $scope.submitted = true;
 
       // If form is invalid, return and let AngularJS show validation errors.
-      if (form.$invalid) {
-        return;
-      }
+      //if (form.$invalid) {
+      //  return;
+      //}
 
       // Default values for the request.
       var config = {
-        params : {
+
 
           'name' : $scope.name,
           'email' : $scope.email,
 
           'comments' : $scope.comments
-        },
+
       };
+      var emails = {
+        to: ['gadgetsam@gmail.com'],
+        subject: 'Help for ' + config.name,
+        body: "Hi, \n My name is " + config.name +" My email is " + config.email +" I am currently having a problem with " + config.comments + "\n Thanks, \n"+ config.name,
+        isHtml: false
+      };
+      console.log(config.name);
+      window.plugin.email.open(emails,  function () {
+        console.log("email view dismissed");
+      });
 console.log(config);
       // Perform JSONP request.
 
 
 
-            $scope.name = null;
-            $scope.email = null;
+            $scope.name = "Test";
+            $scope.email = "gadgetsam@gmail.com";
             $scope.subjectList = null;
             $scope.url = null;
             $scope.comments = null;
