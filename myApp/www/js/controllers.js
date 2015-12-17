@@ -114,12 +114,7 @@ $scope.tutorials = false;
       { title: 'YouTube', link: '/img/Explore/YouTube.pdf', description: 'Explore', id:59}
 
     ]
-    //{
-    //  title: 'Alarms',
-    //    link: 'http://alexfine.github.io/img/Alarms.pdf',
-    //  description: 'Explore',
-    //  id: 4
-    //},
+
     var defaultOptions = {
       location: 'yes',
       clearcache: 'yes',
@@ -133,147 +128,7 @@ $scope.tutorials = false;
       window.open(path,'_blank', defaultOptions);
       console.log(path);
     };
-//// $scope.pdfLink = '../img/explore/Apple%20ID.pdf';
-//    var url = $location.path();
-//lastChrst = url.substr(-1);
-//    if(url == ('/app/search/'+lastChrst)){
-//
-//    lastChr =parseInt(lastChrst);
-//
-//    console.log($scope.pdfs[lastChr]["link"] );
-//
-//    console.log(lastChr);
-//    if(lastChr != undefined){
-//      window.open($scope.pdfs[lastChr]["link"],'_blank', defaultOptions);
-//      $rootScope.$on('$cordovaInAppBrowser:exit', function(e, event){
-//
-//
-//
-//
-//      });
-      //$cordovaFileOpener2.open($scope.pdfs[lastChr]["link"]
-      //).then(function() {
-      //    console.log("worked");
-      //    // file opened successfully
-      //  }, function(err) {
-      //    console.log("error")
-          // An error occurred. Show a message to the user
-        //});
-      //$cordovaInAppBrowser.open('$scope.pdfs[lastChr]["link"]', '_blank', options)
-      //  .then(function(event) {
-      //    // success
-      //  })
-      //  .catch(function(event) {
-      //    // error
-      //  });
-//        console.log($scope.pdfs[lastChr]["link"]);
-//    console.log($scope.pdfs[lastChr]["link"]);
-//    $scope.pdfLink = $scope.pdfs[lastChr]["link"];
-//    };
-//    };
 
-    // Triggered on a button click, or some other target
-//    $scope.showPopup = function () {
-//
-//        $scope.data = {}
-//
-//        // An elaborate, custom popup
-//        var myPopup = $ionicPopup.show({
-//            template: '<input type="password" ng-model="data.wifi">',
-//            title: 'Enter Wi-Fi Password',
-//            subTitle: 'Please use normal things',
-//            scope: $scope,
-//            buttons: [
-//                {
-//                    text: 'Cancel'
-//                },
-//                {
-//                    text: '<b>Save</b>',
-//                    type: 'button-positive',
-//                    onTap: function (e) {
-//                        if (!$scope.data.wifi) {
-//                            //don't allow the user to close unless he enters wifi password
-//                            e.preventDefault();
-//                        } else {
-//                            return $scope.data.wifi;
-//                        }
-//                    }
-//      }
-//    ]
-//        });
-//        myPopup.then(function (res) {
-//            console.log('Tapped!', res);
-//        });
-//        $timeout(function () {
-//            myPopup.close(); //close the popup after 3 seconds for some reason
-//        }, 3000);
-//    };
-//    // A confirm dialog
-//    $scope.showConfirm = function () {
-//        var confirmPopup = $ionicPopup.confirm({
-//            title: 'Consume Ice Cream',
-//            template: 'Are you sure you want to eat this ice cream?'
-//        });
-//        confirmPopup.then(function (res) {
-//            if (res) {
-//                console.log('You are sure');
-//            } else {
-//                console.log('You are not sure');
-//            }
-//        });
-//    };
-//
-//    // An alert dialog
-//    $scope.showAlert = function () {
-//        var alertPopup = $ionicPopup.alert({
-//            title: 'Don\'t eat that!',
-//            template: 'It might taste good'
-//        });
-//        alertPopup.then(function (res) {
-//            console.log('Thank you for not eating my delicious ice cream cone');
-//        });
-//    };
-//           $scope.viewer = pdf.Instance("viewer");
-//
-//        $scope.nextPage = function () {
-//            $scope.viewer.nextPage();
-//        };
-//
-//        $scope.prevPage = function () {
-//            $scope.viewer.prevPage();
-//        };
-//
-//        $scope.pageLoaded = function (curPage, totalPages) {
-//            $scope.currentPage = curPage;
-//            $scope.totalPages = totalPages;
-//        };
-
-
-
-    //   $ionicModal.fromTemplateUrl('templates/search.html', {
-    //    scope: $scope,
-    //    animation: 'slide-in-up'
-    //  }).then(function(modal) {
-    //    $scope.modal = modal;
-    //  });
-    //  $scope.openModal = function() {
-    //    $scope.modal.show();
-    //  };
-    //  $scope.closeModal = function() {
-    //    $scope.modal.hide();
-    //  };
-    //  //Cleanup the modal when we're done with it!
-    //  $scope.$on('$destroy', function() {
-    //    $scope.modal.remove();
-    //  });
-    //  // Execute action on hide modal
-    //  $scope.$on('modal.hidden', function() {
-    //    // Execute action
-    //  });
-    //  // Execute action on remove modal
-    //  $scope.$on('modal.removed', function() {
-    //    // Execute action
-    //  });
 
 }])
 
@@ -325,59 +180,7 @@ $scope.tutorials = false;
 })
 
 .controller('HomeCtrl', ['$scope', '$ionicPopup', function ($scope, pdf, $ionicPopup, $timeout) {
-//    $scope.pdfs = [
-//        {
-//            title: 'Reggae',
-//            link: ' '
-//        },
-//        {
-//            title: 'Chill',
-//            link: 2
-//        },
-//        {
-//            title: 'Dubstep',
-//            link: 3
-//        },
-//        {
-//            title: 'Indie',
-//            link: 4
-//        },
-//        {
-//            title: 'Rap',
-//            link: 5
-//        },
-//        {
-//            title: 'Rap',
-//            link: 5
-//        },
-//        {
-//            title: 'Rap',
-//            link: 5
-//        },
-//        {
-//            title: 'Rap',
-//            link: 5
-//        },
-//        {
-//            title: 'Cowbell',
-//            link: 6
-//        }
-//        ]
 
-    //    $scope.viewer = pdf.Instance("viewer");
-    //
-    //    $scope.nextPage = function () {
-    //        $scope.viewer.nextPage();
-    //    };
-    //
-    //    $scope.prevPage = function () {
-    //        $scope.viewer.prevPage();
-    //    };
-    //
-    //    $scope.pageLoaded = function (curPage, totalPages) {
-    //        $scope.currentPage = curPage;
-    //        $scope.totalPages = totalPages;
-    //    };
 
     // Triggered on a button click, or some other target
   $scope.data = {}
