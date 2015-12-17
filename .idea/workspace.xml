@@ -2,8 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdb6c5e8-902e-455d-ba3d-321563484034" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/PDF Guide v2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Adding Pictures and Video to iPhone Messages.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Alarms.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Amazon.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Apple ID.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Camera.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Creating a Facebook Group.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Customization Options in an Email Message.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Email Additions.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Email Signature.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Facebook Messenger App.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Google Apps.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Google Translate.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Instagram.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Maps.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Microsoft Office.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Microsoft PowerPoint.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Netflix.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Notes.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Siri.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Snapfish.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Twitter.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Using Drafts.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/Windows File System.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/YouTube.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/iPhone and iPad App Grouping.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/explore/iTunes.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips April 12-18.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips April 19-25.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips April 26 - May 2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips April 5-11.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Feb 1-7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Feb 15-21.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Feb 22-28.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Feb 8-14.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Jan 11-17.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Jan 18-24.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Jan 25-31.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Jan 4-10.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Mar 1-7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Mar 15-21.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Mar 22-28.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Mar 29 - April 4.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips Mar 8-14.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips May 10-16.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips May 17-23.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tips/Tips May 3-9.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Basic Internet Uses Guide.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Cell Phone Survival Guide.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Creating a Facebook Account.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Creating a Skype Account.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Creating an Email Account.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Flickr.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Interactions in Facebook.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Making and Receiving FaceTime Calls.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Navigating the Windows Operating System.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Sending and Receiving an Email.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Using iPhone and iPad.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/Video Conferencing through Skype.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/img/tutorial/iMovie.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/config.xml" afterPath="$PROJECT_DIR$/myApp/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/www/js/controllers.js" afterPath="$PROJECT_DIR$/myApp/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/www/templates/search.html" afterPath="$PROJECT_DIR$/myApp/www/templates/search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,8 +89,32 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myApp/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.576">
-              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.528">
+              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdf_big.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/www/img/pdf_big.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ionic.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/www/img/ionic.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,17 +124,7 @@
         <entry file="file://$PROJECT_DIR$/myApp/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/www/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -60,8 +134,11 @@
         <entry file="file://$PROJECT_DIR$/myApp/platforms/ios/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="113" column="6" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="51" />
-              <folding />
+              <caret line="135" column="6" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="24" />
+              <folding>
+                <marker date="1450370730000" expanded="true" signature="1481:1582" placeholder="[...]" />
+                <marker date="1450370730000" expanded="true" signature="1491:1582" placeholder="{&quot;id&quot;: 0...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,18 +156,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myApp/platforms/ios/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-8.125">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,8 +166,8 @@
       <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myApp/www/templates/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.254902">
+              <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
               </folding>
@@ -111,18 +178,8 @@
       <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myApp/www/templates/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-10.041667">
               <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playlists.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/www/templates/playlists.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -139,11 +196,11 @@
         <option value="$PROJECT_DIR$/myApp/www/index.html" />
         <option value="$PROJECT_DIR$/myApp/www/templates/pdf.html" />
         <option value="$PROJECT_DIR$/myApp/www/js/app.js" />
-        <option value="$PROJECT_DIR$/myApp/www/templates/search.html" />
         <option value="$PROJECT_DIR$/myApp/platforms/ios/www/js/app.js" />
         <option value="$PROJECT_DIR$/myApp/platforms/ios/www/index.html" />
         <option value="$PROJECT_DIR$/myApp/platforms/ios/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/myApp/config.xml" />
+        <option value="$PROJECT_DIR$/myApp/www/templates/search.html" />
         <option value="$PROJECT_DIR$/myApp/www/js/controllers.js" />
       </list>
     </option>
@@ -244,6 +301,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alex Fine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alex Fine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -285,24 +364,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Alex Fine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Alex Fine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,25 +445,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1332" height="745" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -421,27 +482,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myApp/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/www/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApp/platforms/ios/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="112" column="6" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="49" />
-          <folding />
+          <folding>
+            <marker date="1450370730000" expanded="true" signature="1481:1582" placeholder="[...]" />
+            <marker date="1450370730000" expanded="true" signature="1491:1582" placeholder="{&quot;id&quot;: 0...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -515,7 +563,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="6" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="69" />
-          <folding />
+          <folding>
+            <marker date="1450370730000" expanded="true" signature="1481:1582" placeholder="[...]" />
+            <marker date="1450370730000" expanded="true" signature="1491:1582" placeholder="{&quot;id&quot;: 0...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApp/platforms/ios/www/img/pdf_big.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -742,36 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/www/templates/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApp/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/www/templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/www/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -784,22 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/platforms/ios/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/platforms/ios/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="6" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApp/plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9878049">
@@ -807,18 +809,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/config.xml">
+    <entry file="file://$PROJECT_DIR$/myApp/platforms/ios/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/www/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/platforms/ios/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="135" column="6" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="24" />
+          <folding>
+            <marker date="1450370730000" expanded="true" signature="1481:1582" placeholder="[...]" />
+            <marker date="1450370730000" expanded="true" signature="1491:1582" placeholder="{&quot;id&quot;: 0...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/www/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.041667">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/www/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.254902">
+          <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/www/img/pdf_big.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/www/img/ionic.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myApp/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.576">
-          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.528">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding />
         </state>
       </provider>
