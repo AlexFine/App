@@ -427,9 +427,9 @@ $scope.tutorials = false;
 
       };
       var emails = {
-        to: ['gadgetsam@gmail.com'],
+        to: ["josh@technocademy.org"],
         subject: 'Help for ' + config.name,
-        body: "Hi, \n My name is " + config.name +" My email is " + config.email +" I am currently having a problem with " + config.comments + "\n Thanks, \n"+ config.name,
+        body: config.comments + "Contact me at:" + config.email,
         isHtml: false
       };
       console.log(config.name);
@@ -441,8 +441,8 @@ console.log(config);
 
 
 
-            $scope.name = "Test";
-            $scope.email = "gadgetsam@gmail.com";
+            $scope.name;
+            $scope.email;
             $scope.subjectList = null;
             $scope.url = null;
             $scope.comments = null;

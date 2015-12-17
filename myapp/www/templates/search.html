@@ -36,8 +36,9 @@
 
             <a class="item item-avatar"  ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore)">
 
+<!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
 
-                <img src="{{pdf.link}}" style="width:50px; height:50px;">
+                <img src="http://alexfine.github.io{{pdf.link}}" style="width:50px; height:50px;">
                 <h2>{{pdf.title}} </h2>
                 <p>{{pdf.description}}</p>
             </a>
