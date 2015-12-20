@@ -150,7 +150,9 @@ $scope.tutorials = false;
 
 }])
 
-.controller('PlaylistsCtrl', function ($scope) {
+.controller('PlaylistsCtrl', function ($scope, $state, $ionicSlideBoxDelegate) {
+
+
     $scope.playlists = [
         {
             title: 'Reggae',

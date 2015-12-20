@@ -3,7 +3,13 @@
         <center>
 
             <br>
-            <p>If you have any questions feel free to fill out our contact form. We will promptly follow up with you and are happy to help. </p>
+            <div class="card" style="padding-top:0px; margin-top:0px;">
+                <div class="item item-text-wrap">
+                    <p>If you have any questions feel free to fill out our contact form. We will promptly follow up with you and are happy to help. </p>
+                </div>
+            </div>
+
+
             <div class="list list-inset">
                 <div data-ng-controller="help">
                     <div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
@@ -12,7 +18,7 @@
                         <div class="form-group">
                             <label class="item item-input">
                                 <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
-                                <input type="text" placeholder="Name" name="name" class="form-control" data-ng-model="name" required  style="height:30px;"/>
+                                <input type="text" placeholder="Name" name="name" class="form-control" data-ng-model="name" required style="height:30px;" />
 
                             </label>
                         </div>
@@ -21,7 +27,7 @@
 
                                 <span class="label label-danger" data-ng-show="submitted && helpForm.email.$error.required">Required!</span>
                                 <span class="label label-danger" data-ng-show="submitted && helpForm.$error.email">Invalid email!</span>
-                                <input type="email" name="email" data-ng-model="email" class="form-control" placeholder="Email" required  style="height:30px;" />
+                                <input type="email" name="email" data-ng-model="email" class="form-control" placeholder="Email" required style="height:30px;" />
                             </label>
                         </div>
                         <div class="form-group">
