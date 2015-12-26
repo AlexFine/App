@@ -1,5 +1,34 @@
 <ion-view view-title="Tips">
-  <ion-content>
-    <h1>tips</h1>
-  </ion-content>
+    <ion-content>
+        <div ng-controller="learnCtrl">
+            <div class="list" id="search">
+                <div class="list list-inset" style="margin-top:8px; margin-bottom:8px;">
+                    <label class="item item-input" style="height:35px;">
+                        <i class="icon ion-search placeholder-icon"></i>
+                        <input type="search" ng-model="query" value="Search" id="bottom">
+                    </label>
+                </div>
+
+                <script>
+                    console.log("loaded");
+                </script>
+
+                
+
+                <circular options="options">
+                </circular>
+
+
+                <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="pdf.description === 'Tips'">
+
+                    <!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
+
+                    <img src="http://alexfine.github.io{{pdf.link}}" style="width:50px; height:50px;">
+                    <h2>{{pdf.title}} </h2>
+                    <p>{{pdf.description}}</p>
+                </a>
+
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
