@@ -425,6 +425,20 @@ angular.module('starter.controllers', [])
         console.log(path);
     };
 
+    $scope.options = {
+        content: 'Menu',
+        isOpen: false,
+        toggleOnClick: true,
+        items: [
+            {
+                content: 'About',
+                onclick: function () {
+                    console.log('About');
+                }
+    }
+  ]
+    };
+
 
 }])
 

@@ -1,5 +1,6 @@
 <ion-view view-title="Learn">
     <ion-content>
+
         <div class="list">
             <div class="list list-inset" style="margin-top:8px; margin-bottom:8px;">
                 <label class="item item-input" style="height:35px;">
@@ -8,11 +9,13 @@
                 </label>
             </div>
 
-                 <script>console.log("loaded");</script>
+            <script>
+                console.log("loaded");
+            </script>
 
             <ul class="list">
 
-                <li class="item item-checkbox" >
+                <li class="item item-checkbox">
                     <label class="checkbox checkbox-assertive">
                         <input type="checkbox" ng-model="explore">
                     </label>
@@ -33,10 +36,14 @@
                 </li>
 
             </ul>
+            
+                <circular options="options">
+                </circular>
+            
 
-            <a class="item item-avatar"  ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore)">
+            <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore)">
 
-<!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
+                <!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
 
                 <img src="http://alexfine.github.io{{pdf.link}}" style="width:50px; height:50px;">
                 <h2>{{pdf.title}} </h2>
