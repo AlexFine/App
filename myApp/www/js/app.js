@@ -59,6 +59,44 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+  
+    .state('app.pocketGuide', {
+      url: '/pocketGuide',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/pocketGuide.html'
+        }
+      }
+    })
+  
+    .state('app.tutorials', {
+      url: '/browse',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/tutorials.html'
+        }
+      }
+    })
+  
+    .state('app.exploreLab', {
+      url: '/browse',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/exploreLab.html'
+        }
+      }
+    })
+  
+    .state('app.tips', {
+      url: '/tips',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/tips.html'
+        }
+      }
+    })
+  
+
     .state('app.playlists', {
       url: '/playlists',
       views: {

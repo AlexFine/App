@@ -1,6 +1,54 @@
 <ion-view view-title="Learn">
     <ion-content>
 
+        <div style="background-image:url('http://www.fotoblur.com/imgs/0/0/0/8/5/3/3/156912.jpg?v=0'); padding-top:5%;">
+            <div class="row" style="padding-left:8%;">
+                <div style="width:35%;">
+                    <a href="#/app/tips">
+                        <button class="button semi-transparent-button" style="margin:1%; border-radius:100px; height:150px;">
+                            Tips
+                        </button>
+                    </a>
+                </div>
+                <div style="width:35%;">
+                    <a href="#/app/pocketGuide">
+                        <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:150px;">
+                            Pocket Guide
+                        </button>
+                    </a>
+                </div>
+                <div style="width:35%;">
+                    <a href="#/app/tutorials">
+                        <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:150px;">
+                            Tutorials
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-left:8%; margin-top:3%;">
+                <div style="width:35%;">
+                    <a href="#/app/exploreLabs">
+                        <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:150px;">
+                            Explore Labs
+                        </button>
+                    </a>
+                </div>
+                <div style="width:35%;">
+                    <a href="#/app/tips">
+                        <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:150px;">
+                            Search
+                        </button>
+                    </a>
+                </div>
+                <div style="width:35%;">
+                    <a href="#/app/tips">
+                        <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:150px;">
+                            About
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="list">
             <div class="list list-inset" style="margin-top:8px; margin-bottom:8px;">
                 <label class="item item-input" style="height:35px;">
@@ -36,10 +84,10 @@
                 </li>
 
             </ul>
-            
-                <circular options="options">
-                </circular>
-            
+
+            <circular options="options">
+            </circular>
+
 
             <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore)">
 
