@@ -41,7 +41,7 @@ angular.module('starter.controllers', [])
     };
 })
 
-.controller('learnCtrl', ['$scope', '$location', function ($scope, $location) {
+.controller('learnCtrl', ['$scope', '$location', '$anchorScroll', function ($scope, $location, $anchorScroll) {
 
 
     $scope.tutorials = false;
@@ -438,7 +438,16 @@ angular.module('starter.controllers', [])
     }
   ]
     };
+    
+    $scope.gotoBottom = function() {
+      // set the location.hash to the id of
+      // the element you wish to scroll to.
+      $location.hash('bottom');
 
+      // call $anchorScroll()
+      $anchorScroll();
+    };   
+    
 
 }])
 

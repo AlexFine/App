@@ -33,3 +33,13 @@ body {
 a {
     text-decoration: none;
 }
+
+#scrollArea {
+  height: 100%;
+  overflow: auto;
+}
+
+#bottom {
+  display: block;
+/*  margin-top: 2000px;*/
+}
