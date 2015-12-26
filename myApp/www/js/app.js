@@ -70,7 +70,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     })
   
     .state('app.tutorials', {
-      url: '/browse',
+      url: '/tutorials',
       views: {
         'menuContent': {
           templateUrl: 'templates/tutorials.html'
@@ -78,11 +78,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
   
-    .state('app.exploreLab', {
-      url: '/browse',
+    .state('app.exploreLabs', {
+      url: '/exploreLabs',
       views: {
         'menuContent': {
-          templateUrl: 'templates/exploreLab.html'
+          templateUrl: 'templates/exploreLabs.html'
         }
       }
     })
