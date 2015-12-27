@@ -1,7 +1,7 @@
 <ion-view view-title="Learn">
     <ion-content>
         <div id="scrollArea">
-            <div style="background-image:url('http://www.fotoblur.com/imgs/0/0/0/8/5/3/3/156912.jpg?v=0'); padding-top:5%; padding-bottom:5%;">
+            <div style="background-image:url('http://www.fotoblur.com/imgs/0/0/0/8/5/3/3/156912.jpg?v=0'); padding-top:5%; padding-bottom:5%; height:1500px;">
                 <div class="row" style="padding-left:8%;">
                     <div style="width:35%;">
                         <a href="#/app/tips">
@@ -34,7 +34,7 @@
                         </a>
                     </div>
                     <div style="width:35%;">
-                        <a  ng-click="gotoBottom()">
+                        <a ng-click="modal.show()">
                             <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:125px;">
                                 Search
                             </button>
@@ -50,32 +50,37 @@
                 </div>
             </div>
 
-            <div class="list" id="search">
-                <div class="list list-inset" style="margin-top:8px; margin-bottom:8px;" >
-                    <label class="item item-input" style="height:35px;">
-                        <i class="icon ion-search placeholder-icon"></i>
-                        <input type="search" ng-model="query" value="Search"  id="bottom">
-                    </label>
-                </div>
 
-                <script>
-                    console.log("loaded");
-                </script>
-
-                <circular options="options">
-                </circular>
-
-
-                <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore)">
-
-                    <!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
-
-                    <img src="http://alexfine.github.io{{pdf.link}}" style="width:50px; height:50px;">
-                    <h2>{{pdf.title}} </h2>
-                    <p>{{pdf.description}}</p>
-                </a>
-
-            </div>
         </div>
+        <script id="my-modal.html" type="text/ng-template">
+            <ion-modal-view>
+                <ion-header-bar>
+                    <h1 class="title">Search</h1>
+                    <div class="button button-clear" ng-click="modal.hide()"><span class="icon ion-close"></span>
+                    </div>
+                </ion-header-bar>
+                <ion-content>
+                    <div class="list">
+                        <div class="list list-inset" style="margin-top:8px; margin-bottom:8px;">
+                            <label class="item item-input" style="height:35px;">
+                                <i class="icon ion-search placeholder-icon"></i>
+                                <input type="search" ng-model="query" value="Search" id="bottom">
+                            </label>
+                        </div>
+
+                        
+                        <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore)">
+
+                            <!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
+
+                            <img src="http://alexfine.github.io{{pdf.link}}" style="width:50px; height:50px;">
+                            <h2>{{pdf.title}} </h2>
+                            <p>{{pdf.description}}</p>
+                        </a>
+                    </div>
+                </ion-content>
+            </ion-modal-view>
+        </script>
+
     </ion-content>
 </ion-view>

@@ -41,7 +41,7 @@ angular.module('starter.controllers', [])
     };
 })
 
-.controller('learnCtrl', ['$scope', '$location', '$anchorScroll', function ($scope, $location, $anchorScroll) {
+.controller('learnCtrl', function ($scope, $ionicModal) {
 
 
     $scope.tutorials = false;
@@ -438,18 +438,33 @@ angular.module('starter.controllers', [])
     }
   ]
     };
-    
-    $scope.gotoBottom = function() {
-      // set the location.hash to the id of
-      // the element you wish to scroll to.
-      $location.hash('bottom');
 
-      // call $anchorScroll()
-      $anchorScroll();
-    };   
-    
-
-}])
+ 
+    $ionicModal.fromTemplateUrl('my-modal.html', {
+        scope: $scope,
+        animation: 'slide-in-up'
+    }).then(function (modal) {
+        $scope.modal = modal;
+    });
+    $scope.openModal = function () {
+        $scope.modal.show();
+    };
+    $scope.closeModal = function () {
+        $scope.modal.hide();
+    };
+    //Cleanup the modal when we're done with it!
+    $scope.$on('$destroy', function () {
+        $scope.modal.remove();
+    });
+    // Execute action on hide modal
+    $scope.$on('modal.hidden', function () {
+        // Execute action
+    });
+    // Execute action on remove modal
+    $scope.$on('modal.removed', function () {
+        // Execute action
+    });
+})
 
 .controller('PDFlistCtrl', ['$scope', function ($scope, $stateParams) {
     //    $scope.viewer = pdf.Instance("viewer");
