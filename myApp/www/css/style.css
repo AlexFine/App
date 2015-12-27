@@ -23,7 +23,6 @@ body {
     /*border: 1px solid #fff;*/
 }
 
-.semi-transparent-button:hover,
 .semi-transparent-button:focus,
 .semi-transparent-button:active {
   background: #fff;
