@@ -67,8 +67,30 @@
                                 <input type="search" ng-model="query" value="Search" id="bottom">
                             </label>
                         </div>
+                        <ul class="list">
+                            
+                            <li class="item item-checkbox">
+                                
+                                <label class="checkbox checkbox-assertive">
+                                    
+                                    <input type="checkbox" ng-model="explore">  </label>
+                                 Explore  </li>
+                            
+                            <li class="item item-checkbox">
+                                
+                                <label class="checkbox checkbox-assertive">
+                                    
+                                    <input type="checkbox" ng-model="tips">  </label>
+                                Tips  </li>
+                            
+                            <li class="item item-checkbox">
+                                
+                                <label class="checkbox checkbox-assertive">
+                                    
+                                    <input type="checkbox" ng-model="tutorials"> </label>
+                                 Tutorials  </li>
+                             </ul>
 
-                        
                         <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore)">
 
                             <!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
