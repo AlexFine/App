@@ -49,7 +49,7 @@ angular.module('starter.controllers', [])
     $scope.explore = false;
     $scope.pdfs = [
         {
-            title: 'PDF Guide',
+            title: 'Pocket Guide',
             link: '/img/PDF%20Guide%20v2.pdf',
             description: 'General',
             id: 0
@@ -205,7 +205,7 @@ angular.module('starter.controllers', [])
             id: 25
         },
         {
-            title: 'Tips Mar 1-7',
+            title: 'Tips March 1-7',
             link: '/img/Tips/Tips%20Mar%201-7.pdf',
             description: 'Tips',
             id: 26
