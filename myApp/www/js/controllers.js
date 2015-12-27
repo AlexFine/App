@@ -157,49 +157,49 @@ angular.module('starter.controllers', [])
             id: 17
         },
         {
-            title: 'Tips Feb 1-7',
+            title: 'Tips February 1-7',
             link: '/img/Tips/Tips%20Feb%201-7.pdf',
             description: 'Tips',
             id: 18
         },
         {
-            title: 'Tips Feb 15-21',
+            title: 'Tips February 15-21',
             link: '/img/Tips/Tips%20Feb%2015-21.pdf',
             description: 'Tips',
             id: 19
         },
         {
-            title: 'Tips Feb 22-28',
+            title: 'Tips February 22-28',
             link: '/img/Tips/Tips%20Feb%2022-28.pdf',
             description: 'Tips',
             id: 20
         },
         {
-            title: 'Tips Feb 8-14',
+            title: 'Tips February 8-14',
             link: '/img/Tips/Tips%20Feb%208-14.pdf',
             description: 'Tips',
             id: 21
         },
         {
-            title: 'Tips Jan 11-17',
+            title: 'Tips January 11-17',
             link: '/img/Tips/Tips%20Jan%2011-17.pdf',
             description: 'Tips',
             id: 22
         },
         {
-            title: 'Tips Jan 18-24',
+            title: 'Tips January 18-24',
             link: '/img/Tips/Tips%20Jan%2018-24.pdf',
             description: 'Tips',
             id: 23
         },
         {
-            title: 'Tips Jan 25-31',
+            title: 'Tips January 25-31',
             link: '/img/Tips/Tips%20Jan%2025-31.pdf',
             description: 'Tips',
             id: 24
         },
         {
-            title: 'Tips Jan 4-10',
+            title: 'Tips January 4-10',
             link: '/img/Tips/Tips%20Jan%204-10.pdf',
             description: 'Tips',
             id: 25
@@ -211,25 +211,25 @@ angular.module('starter.controllers', [])
             id: 26
         },
         {
-            title: 'Tips Mar 15-21',
+            title: 'Tips March 15-21',
             link: '/img/Tips/Tips%20Mar%2015-21.pdf',
             description: 'Tips',
             id: 27
         },
         {
-            title: 'Tips Mar 22-28',
+            title: 'Tips March 22-28',
             link: '/img/Tips/Tips%20Mar%2022-28.pdf',
             description: 'Tips',
             id: 28
         },
         {
-            title: 'Tips Mar 29 - April 4',
+            title: 'Tips March 29 - April 4',
             link: '/img/Tips/Tips%20Mar%2029%20-%20April%204.pdf',
             description: 'Tips',
             id: 29
         },
         {
-            title: 'Tips Mar 8-14',
+            title: 'Tips March 8-14',
             link: '/img/Tips/Tips%20Mar%208-14.pdf',
             description: 'Tips',
             id: 30
