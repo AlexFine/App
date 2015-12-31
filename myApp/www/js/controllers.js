@@ -136,120 +136,140 @@ angular.module('starter.controllers', [])
             title: 'Tips April 12-18',
             link: '/img/Tips/Tips%20April%2012-18.pdf',
             description: 'Tips',
+            num: 14,
             id: 14
         },
         {
             title: 'Tips April 19-25',
             link: '/img/Tips/Tips%20April%2019-25.pdf',
             description: 'Tips',
+            num: 15,
             id: 15
         },
         {
             title: 'Tips April 26 - May 2',
             link: '/img/Tips/Tips%20April%2026%20-%20May%202.pdf',
             description: 'Tips',
+            num: 16,
             id: 16
         },
         {
             title: 'Tips April 5-11',
             link: '/img/Tips/Tips%20April%205-11.pdf',
             description: 'Tips',
+            num: 13,
             id: 17
         },
         {
             title: 'Tips February 1-7',
             link: '/img/Tips/Tips%20Feb%201-7.pdf',
             description: 'Tips',
+            num: 5,
             id: 18
         },
         {
             title: 'Tips February 15-21',
             link: '/img/Tips/Tips%20Feb%2015-21.pdf',
             description: 'Tips',
+            num: 7,
             id: 19
         },
         {
             title: 'Tips February 22-28',
             link: '/img/Tips/Tips%20Feb%2022-28.pdf',
             description: 'Tips',
+            num: 8,
             id: 20
         },
         {
             title: 'Tips February 8-14',
             link: '/img/Tips/Tips%20Feb%208-14.pdf',
             description: 'Tips',
+            num: 6,
             id: 21
         },
         {
             title: 'Tips January 11-17',
             link: '/img/Tips/Tips%20Jan%2011-17.pdf',
             description: 'Tips',
+            num: 1,
             id: 22
         },
         {
             title: 'Tips January 18-24',
             link: '/img/Tips/Tips%20Jan%2018-24.pdf',
             description: 'Tips',
+            num: 2,
             id: 23
         },
         {
             title: 'Tips January 25-31',
             link: '/img/Tips/Tips%20Jan%2025-31.pdf',
             description: 'Tips',
+            num: 3,
             id: 24
         },
         {
             title: 'Tips January 4-10',
             link: '/img/Tips/Tips%20Jan%204-10.pdf',
             description: 'Tips',
+            num: 4,
             id: 25
         },
         {
             title: 'Tips March 1-7',
             link: '/img/Tips/Tips%20Mar%201-7.pdf',
             description: 'Tips',
+            num: 9,
             id: 26
+        },
+        {
+            title: 'Tips March 8-14',
+            link: '/img/Tips/Tips%20Mar%208-14.pdf',
+            description: 'Tips',
+            num: 10,
+            id: 30
         },
         {
             title: 'Tips March 15-21',
             link: '/img/Tips/Tips%20Mar%2015-21.pdf',
             description: 'Tips',
+            num: 10,
             id: 27
         },
         {
             title: 'Tips March 22-28',
             link: '/img/Tips/Tips%20Mar%2022-28.pdf',
             description: 'Tips',
+            num: 11,
             id: 28
         },
         {
             title: 'Tips March 29 - April 4',
             link: '/img/Tips/Tips%20Mar%2029%20-%20April%204.pdf',
             description: 'Tips',
+            num: 12,
             id: 29
-        },
-        {
-            title: 'Tips March 8-14',
-            link: '/img/Tips/Tips%20Mar%208-14.pdf',
-            description: 'Tips',
-            id: 30
         },
         {
             title: 'Tips May 10-16',
             link: '/img/Tips/Tips%20May%2010-16.pdf',
             description: 'Tips',
+            num: 17,
             id: 31
         },
         {
             title: 'Tips May 17-23',
             link: '/img/Tips/Tips%20May%2017-23.pdf',
             description: 'Tips',
+            num: 18,
             id: 32
         },
         {
             title: 'Tips May 3-9',
             link: '/img/Tips/Tips%20May%203-9.pdf',
             description: 'Tips',
+            num: 16,
             id: 33
         },
         {

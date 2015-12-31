@@ -1,4 +1,4 @@
-<ion-view view-title="Learn">
+<ion-view view-title="Home">
     <ion-content>
         <div id="scrollArea">
             <div style="background-image:url('http://www.fotoblur.com/imgs/0/0/0/8/5/3/3/156912.jpg?v=0'); padding-top:5%; padding-bottom:5%; height:1500px;">
@@ -6,21 +6,23 @@
                     <div style="width:35%;">
                         <a href="#/app/tips">
                             <button class="button semi-transparent-button" style="margin:1%; border-radius:100px; height:100px;">
-                                Tips
+                                <p style="line-height:6px;"><i class="ion-ios-lightbulb-outline" style="font-size: 60px;"></i><br><small style="font-size:12px">Tips</small></p>
                             </button>
                         </a>
                     </div>
                     <div style="width:35%;">
                         <a ng-click="openPdf(0)">
                             <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:100px;">
-                                Pocket Guide
+                                <p style="line-height: 1px;"><i class="ion-ios-paper-outline" style="font-size: 60px;"></i><br>
+                                <small style="font-size:12px">Pocket Guide</small></p>
                             </button>
                         </a>
                     </div>
                     <div style="width:35%;">
                         <a href="#/app/tutorials">
                             <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:100px;">
-                                Tutorials
+                               <p style="line-height: 1px;"><i class="ion-ios-folder-outline" style="font-size: 60px;"></i><br>
+                                <small style="font-size:12px">Tutorials</small></p> 
                             </button>
                         </a>
                     </div>
@@ -29,21 +31,24 @@
                     <div style="width:35%;">
                         <a href="#/app/exploreLabs">
                             <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:100px;">
-                                Explore Labs
+                               <p style="line-height: 1px;"><i class="ion-ios-world-outline" style="font-size: 60px;"></i><br>
+                                <small style="font-size:12px">Explore Labs</small></p>  
                             </button>
                         </a>
                     </div>
                     <div style="width:35%;">
                         <a ng-click="modal.show()">
                             <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:100px;">
-                                Search
+                                <p style="line-height: 1px;"><i class="ion-ios-search" style="font-size: 60px;"></i><br>
+                                <small style="font-size:12px">Search</small></p>  
                             </button>
                         </a>
                     </div>
                     <div style="width:35%;">
                         <a href="#/app/home">
                             <button class="button  semi-transparent-button" style="margin:1%; border-radius:100px; height:100px;">
-                                About
+                                <p style="line-height: 1px;"><i class="ion-information-circled" style="font-size: 60px;"></i><br>
+                                <small style="font-size:12px">About</small></p>  
                             </button>
                         </a>
                     </div>
@@ -91,7 +96,7 @@
                                  Tutorials  </li>
                              </ul>
 
-                        <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore)">
+                        <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="((tutorials && pdf.description == 'Tutorial') ||(explore && pdf.description == 'Explore') || (tips && pdf.description == 'Tips'))|| (!tutorials && !tips && !explore) && query.length > 2">
 
                             <!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
 
