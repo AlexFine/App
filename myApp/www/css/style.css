@@ -22,13 +22,13 @@ h6 {
     text-decoration: none;
     /* fallback color for old browsers */
     
-    background: rgba(30, 52, 142, 0.5);
+    background: rgba(35, 156, 250, 0.7);
     border-radius: 8px;
     color: #fff;
     text-align: center;
     text-decoration: none;
     letter-spacing: 1px;
-    transition: all 0.3s ease-out;
+    transition: all 0.1s ease-out;
     /*border: 1px solid #fff;*/
 }
 
@@ -36,7 +36,7 @@ h6 {
 .semi-transparent-button:active {
     background: #fff;
     color: #000;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 a {
