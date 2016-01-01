@@ -1,5 +1,13 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Montserrat', sans-serif; 
 }
 
 .semi-transparent-button {
@@ -41,4 +49,18 @@ a {
 #bottom {
   display: block;
 /*  margin-top: 2000px;*/
+}
+
+#list {
+    font-size:15px;
+    line-height:70%;
+  margin: 30px auto;
+    margin-left:30px;
+}
+#list ul {
+}
+#list ul li {
+  text-align: left;
+  list-style: disc;
+  margin: 10px 0px;
 }
