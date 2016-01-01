@@ -1,13 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-   font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .semi-transparent-button {
@@ -18,7 +19,7 @@ h6 {
     width: 80%;
     max-width: 200px;
     background: #fff;
-    text-decoration:none;
+    text-decoration: none;
     /* fallback color for old browsers */
     
     background: rgba(30, 52, 142, 0.5);
@@ -33,34 +34,41 @@ h6 {
 
 .semi-transparent-button:focus,
 .semi-transparent-button:active {
-  background: #fff;
-  color: #000;
-  transition: all 0.5s ease-in;
+    background: #fff;
+    color: #000;
+    transition: all 0.5s ease-in;
 }
+
 a {
     text-decoration: none;
 }
 
 #scrollArea {
-  height: 100%;
-  overflow: auto;
+    height: 100%;
+    overflow: auto;
 }
 
 #bottom {
-  display: block;
-/*  margin-top: 2000px;*/
+    display: block;
+    /*  margin-top: 2000px;*/
 }
 
 #list {
-    font-size:15px;
-    line-height:70%;
-  margin: 30px auto;
-    margin-left:30px;
+    font-size: 15px;
+    line-height: 70%;
+    margin: 30px auto;
+    margin-left: 30px;
 }
-#list ul {
-}
+
+#list ul {}
+
 #list ul li {
-  text-align: left;
-  list-style: disc;
-  margin: 10px 0px;
+    text-align: left;
+    list-style: disc;
+    margin: 10px 0px;
+}
+
+.background {
+    background: url('../img/background.png')  no-repeat center;
+   background-size:cover;
 }
