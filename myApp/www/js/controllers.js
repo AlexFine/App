@@ -233,7 +233,29 @@ angular.module('starter.controllers', [])
       { title: 'Maps', link: '/img/Explore/iPhone_iPad/Maps.pdf', description: 'iPhone_iPad', id:57},
       { title: 'Notes', link: '/img/Explore/iPhone_iPad/Notes.pdf', description: 'iPhone_iPad', id:58},
       { title: 'Siri', link: '/img/Explore/iPhone_iPad/Siri.pdf', description: 'iPhone_iPad', id:59},
-      { title: 'Amazon', link: '/img/Explore/Internet_Email_Cell_Phone/Amazon.pdf', description: 'Internet', id:60}
+      { title: 'Amazon', link: '/img/Explore/Internet_Email_Cell_Phone/Amazon.pdf', description: 'Internet', id:60},
+      { title: 'Basic Internet Uses Guide', link: '/img/Tutorials/Basic%20Internet%20Uses%20Guide.pdf', description: 'Explore', id:61},
+      { title: 'Cell Phone Survival Guide', link: '/img/Tutorials/Cell%20Phone%20Survival%20Guide.pdf', description: 'Explore', id:62},
+      { title: 'Creating a Facebook Account', link: '/img/Tutorials/Creating%20a%20Facebook%20Account.pdf', description: 'Explore', id:63},
+      { title: 'Creating a Skype Account', link: '/img/Tutorials/Creating%20a%20Skype%20Account.pdf', description: 'Explore', id:64},
+      { title: 'Creating an Email Account', link: '/img/Tutorials/Creating%20an%20Email%20Account.pdf', description: 'Explore', id:65},
+      { title: 'Flickr', link: '/img/Tutorials/Flickr.pdf', description: 'Explore', id:66},
+      { title: 'iMovie', link: '/img/Tutorials/iMovie.pdf', description: 'Explore', id:67},
+      { title: 'Interactions in Facebook', link: '/img/Tutorials/Interactions%20in%20Facebook.pdf', description: 'Explore', id:68},
+      { title: 'Making and Receiving FaceTime Calls', link: '/img/Tutorials/Making%20and%20Receiving%20FaceTime%20Calls.pdf', description: 'Explore', id:69},
+      { title: 'Navigating the Windows Operating System', link: '/img/Tutorials/Navigating%20the%20Windows%20Operating%20System.pdf', description: 'Explore', id:70},
+      { title: 'Sending and Receiving an Email', link: '/img/Tutorials/Sending%20and%20Receiving%20an%20Email.pdf', description: 'Explore', id:71},
+      { title: 'Using iPhone and iPad', link: '/img/Tutorials/Using%20iPhone%20and%20iPad.pdf', description: 'Explore', id:72},
+      { title: 'Video Conferencing through Skype', link: '/img/Tutorials/Video%20Conferencing%20through%20Skype.pdf', description: 'Explore', id:73},
+      { title: 'Basic Internet Uses', link: '/img/Explore/Basic%20Internet%20Uses.pdf', description: 'Explore', id:74},
+      { title: 'Basics of Email', link: '/img/Explore/Basics%20of%20Email.pdf', description: 'Explore', id:75},
+      { title: 'Cell Phone Boot Camp', link: '/img/Explore/Cell%20Phone%20Boot%20Camp.pdf', description: 'Explore', id:76},
+      { title: 'Intro to Computer', link: '/img/Explore/Intro%20to%20Computer.pdf', description: 'Explore', id:77},
+      { title: 'iPhone and iPad', link: '/img/Explore/iPhone%20and%20iPad.pdf', description: 'Explore', id:78},
+      { title: 'Skype and Facetime', link: '/img/Explore/Skype%20and%20Facetime.pdf', description: 'Explore', id:79},
+      { title: 'Social Media', link: '/img/Explore/Social%20Media.pdf', description: 'Explore', id:80}
+
+
 
     ]
 
