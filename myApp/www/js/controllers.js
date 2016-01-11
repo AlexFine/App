@@ -48,25 +48,85 @@ angular.module('starter.controllers', [])
     $scope.tips = false;
     $scope.explore = false;
     $scope.pdfs = [
-      {
-        title: 'Pocket Guide',
-        link: '/img/PDF%20Guide%20v2.pdf',
-        description: 'General',
-        id: 0
+        {
+            title: 'Pocket Guide',
+            link: '/img/PDF%20Guide%20v2.pdf',
+            description: 'General',
+            id: 0
       },
 
-      { title: 'Calls and Voicemail', link: '/img/Explore/Internet_Email_Cell_Phone/Calls%20and%20Voicemail.pdf', description: 'Internet', id:1},
-      { title: 'Customization Options in an Email Message', link: '/img/Explore/Internet_Email_Cell_Phone/Customization%20Options%20in%20an%20Email%20Message.pdf', description: 'Internet', id:2},
-      { title: 'Email Additions', link: '/img/Explore/Internet_Email_Cell_Phone/Email%20Additions.pdf', description: 'Internet', id:3},
-      { title: 'Email Signature', link: '/img/Explore/Internet_Email_Cell_Phone/Email%20Signature.pdf', description: 'Internet', id:4},
-      { title: 'Gmail Chat', link: '/img/Explore/Internet_Email_Cell_Phone/Gmail%20Chat.pdf', description: 'Internet', id:5},
-      { title: 'Gmail Contacts', link: '/img/Explore/Internet_Email_Cell_Phone/Gmail%20Contacts.pdf', description: 'Internet', id:6},
-      { title: 'Google Apps', link: '/img/Explore/Internet_Email_Cell_Phone/Google%20Apps.pdf', description: 'Internet', id:7},
-      { title: 'Netflix', link: '/img/Explore/Internet_Email_Cell_Phone/Netflix.pdf', description: 'Internet', id:8},
-      { title: 'Snapfish', link: '/img/Explore/Internet_Email_Cell_Phone/Snapfish.pdf', description: 'Internet', id:9},
-      { title: 'Storing Passwords', link: '/img/Explore/Internet_Email_Cell_Phone/Storing%20Passwords.pdf', description: 'Internet', id:10},
-      { title: 'Using Drafts', link: '/img/Explore/Internet_Email_Cell_Phone/Using%20Drafts.pdf', description: 'Internet', id:11},
-      { title: 'YouTube', link: '/img/Explore/Internet_Email_Cell_Phone/YouTube.pdf', description: 'Internet', id:12},
+        {
+            title: 'Calls and Voicemail',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Calls%20and%20Voicemail.pdf',
+            description: 'Internet',
+            id: 1
+        },
+        {
+            title: 'Customization Options in an Email Message',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Customization%20Options%20in%20an%20Email%20Message.pdf',
+            description: 'Internet',
+            id: 2
+        },
+        {
+            title: 'Email Additions',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Email%20Additions.pdf',
+            description: 'Internet',
+            id: 3
+        },
+        {
+            title: 'Email Signature',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Email%20Signature.pdf',
+            description: 'Internet',
+            id: 4
+        },
+        {
+            title: 'Gmail Chat',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Gmail%20Chat.pdf',
+            description: 'Internet',
+            id: 5
+        },
+        {
+            title: 'Gmail Contacts',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Gmail%20Contacts.pdf',
+            description: 'Internet',
+            id: 6
+        },
+        {
+            title: 'Google Apps',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Google%20Apps.pdf',
+            description: 'Internet',
+            id: 7
+        },
+        {
+            title: 'Netflix',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Netflix.pdf',
+            description: 'Internet',
+            id: 8
+        },
+        {
+            title: 'Snapfish',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Snapfish.pdf',
+            description: 'Internet',
+            id: 9
+        },
+        {
+            title: 'Storing Passwords',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Storing%20Passwords.pdf',
+            description: 'Internet',
+            id: 10
+        },
+        {
+            title: 'Using Drafts',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Using%20Drafts.pdf',
+            description: 'Internet',
+            id: 11
+        },
+        {
+            title: 'YouTube',
+            link: '/img/Explore/Internet_Email_Cell_Phone/YouTube.pdf',
+            description: 'Internet',
+            id: 12
+        },
         {
             title: 'Tips April 12-18',
             link: '/img/Tips/Tips%20April%2012-18.pdf',
@@ -207,33 +267,168 @@ angular.module('starter.controllers', [])
             num: 16,
             id: 33
         },
-      { title: 'Microsoft Excel', link: '/img/Explore/Microsoft_Office/Microsoft%20Excel.pdf', description: 'Microsoft', id:34},
-      { title: 'Microsoft Office', link: '/img/Explore/Microsoft_Office/Microsoft%20Office.pdf', description: 'Microsoft', id:35},
-      { title: 'Microsoft PowerPoint', link: '/img/Explore/Microsoft_Office/Microsoft%20PowerPoint.pdf', description: 'Microsoft', id:36},
-      { title: 'Microsoft Word', link: '/img/Explore/Microsoft_Office/Microsoft%20Word.pdf', description: 'Microsoft', id:37},
-      { title: 'Creating a Facebook Group', link: '/img/Explore/Social_Media/Creating%20a%20Facebook%20Group.pdf', description: 'Social Media', id:38},
-      { title: 'Instagram', link: '/img/Explore/Social_Media/Instagram.pdf', description: 'Social Media', id:39},
-      { title: 'Twitter', link: '/img/Explore/Social_Media/Twitter.pdf', description: 'Social Media', id:40},
-      { title: 'Downloading Security Programs', link: '/img/Explore/Social_Media/Downloading%20Security%20Programs.pdf', description: 'Windows_OS', id:41},
-      { title: 'iTunes on Windows Computer Part II', link: '/img/Explore/Social_Media/iTunes%20on%20Windows%20Computer%20Part%20II.pdf', description: 'Windows_OS', id:42},
-      { title: 'iTunes on Windows Computer', link: '/img/Explore/Social_Media/iTunes%20on%20Windows%20Computer.pdf', description: 'Windows_OS', id:43},
-      { title: 'Windows File System', link: '/img/Explore/Social_Media/Windows%20File%20System.pdf', description: 'Windows_OS', id:44},
-      { title: 'Adding Pictures and Video to iPhone Messages', link: '/img/Explore/iPhone_iPad/Adding%20Pictures%20and%20Video%20to%20iPhone%20Messages.pdf', description: 'iPhone_iPad', id:45},
-      { title: 'Alarms', link: '/img/Explore/iPhone_iPad/Alarms.pdf', description: 'iPhone_iPad', id:46},
-      { title: 'App Store', link: '/img/Explore/iPhone_iPad/App%20Store.pdf', description: 'iPhone_iPad', id:47},
-      { title: 'Apple ID', link: '/img/Explore/iPhone_iPad/Apple%20ID.pdf', description: 'iPhone_iPad', id:48},
-      { title: 'Camera and Video on the iPhone and iPad', link: '/img/Explore/iPhone_iPad/Camera%20and%20Video%20on%20the%20iPhone%20and%20iPad.pdf', description: 'iPhone_iPad', id:49},
-      { title: 'Camera', link: '/img/Explore/iPhone_iPad/Camera.pdf', description: 'iPhone_iPad', id:50},
-      { title: 'Facebook Messenger App', link: '/img/Explore/iPhone_iPad/Facebook%20Messenger%20App.pdf', description: 'iPhone_iPad', id:51},
-      { title: 'Google Translate', link: '/img/Explore/iPhone_iPad/Google%20Translate.pdf', description: 'iPhone_iPad', id:52},
-      { title: 'iMovie', link: '/img/Explore/iPhone_iPad/iMovie.pdf', description: 'iPhone_iPad', id:53},
-      { title: 'iPhone and iPad App Grouping', link: '/img/Explore/iPhone_iPad/iPhone%20and%20iPad%20App%20Grouping.pdf', description: 'iPhone_iPad', id:54},
-      { title: 'iTunes', link: '/img/Explore/iPhone_iPad/iTunes.pdf', description: 'iPhone_iPad', id:55},
-      { title: 'Mail App', link: '/img/Explore/iPhone_iPad/Mail%20App.pdf', description: 'iPhone_iPad', id:56},
-      { title: 'Maps', link: '/img/Explore/iPhone_iPad/Maps.pdf', description: 'iPhone_iPad', id:57},
-      { title: 'Notes', link: '/img/Explore/iPhone_iPad/Notes.pdf', description: 'iPhone_iPad', id:58},
-      { title: 'Siri', link: '/img/Explore/iPhone_iPad/Siri.pdf', description: 'iPhone_iPad', id:59},
-      { title: 'Amazon', link: '/img/Explore/Internet_Email_Cell_Phone/Amazon.pdf', description: 'Internet', id:60}
+        {
+            title: 'Microsoft Excel',
+            link: '/img/Explore/Microsoft_Office/Microsoft%20Excel.pdf',
+            description: 'Microsoft',
+            id: 34
+        },
+        {
+            title: 'Microsoft Office',
+            link: '/img/Explore/Microsoft_Office/Microsoft%20Office.pdf',
+            description: 'Microsoft',
+            id: 35
+        },
+        {
+            title: 'Microsoft PowerPoint',
+            link: '/img/Explore/Microsoft_Office/Microsoft%20PowerPoint.pdf',
+            description: 'Microsoft',
+            id: 36
+        },
+        {
+            title: 'Microsoft Word',
+            link: '/img/Explore/Microsoft_Office/Microsoft%20Word.pdf',
+            description: 'Microsoft',
+            id: 37
+        },
+        {
+            title: 'Creating a Facebook Group',
+            link: '/img/Explore/Social_Media/Creating%20a%20Facebook%20Group.pdf',
+            description: 'Social Media',
+            id: 38
+        },
+        {
+            title: 'Instagram',
+            link: '/img/Explore/Social_Media/Instagram.pdf',
+            description: 'Social Media',
+            id: 39
+        },
+        {
+            title: 'Twitter',
+            link: '/img/Explore/Social_Media/Twitter.pdf',
+            description: 'Social Media',
+            id: 40
+        },
+        {
+            title: 'Downloading Security Programs',
+            link: '/img/Explore/Social_Media/Downloading%20Security%20Programs.pdf',
+            description: 'Windows_OS',
+            id: 41
+        },
+        {
+            title: 'iTunes on Windows Computer Part II',
+            link: '/img/Explore/Social_Media/iTunes%20on%20Windows%20Computer%20Part%20II.pdf',
+            description: 'Windows_OS',
+            id: 42
+        },
+        {
+            title: 'iTunes on Windows Computer',
+            link: '/img/Explore/Social_Media/iTunes%20on%20Windows%20Computer.pdf',
+            description: 'Windows_OS',
+            id: 43
+        },
+        {
+            title: 'Windows File System',
+            link: '/img/Explore/Social_Media/Windows%20File%20System.pdf',
+            description: 'Windows_OS',
+            id: 44
+        },
+        {
+            title: 'Adding Pictures and Video to iPhone Messages',
+            link: '/img/Explore/iPhone_iPad/Adding%20Pictures%20and%20Video%20to%20iPhone%20Messages.pdf',
+            description: 'iPhone_iPad',
+            id: 45
+        },
+        {
+            title: 'Alarms',
+            link: '/img/Explore/iPhone_iPad/Alarms.pdf',
+            description: 'iPhone_iPad',
+            id: 46
+        },
+        {
+            title: 'App Store',
+            link: '/img/Explore/iPhone_iPad/App%20Store.pdf',
+            description: 'iPhone_iPad',
+            id: 47
+        },
+        {
+            title: 'Apple ID',
+            link: '/img/Explore/iPhone_iPad/Apple%20ID.pdf',
+            description: 'iPhone_iPad',
+            id: 48
+        },
+        {
+            title: 'Camera and Video on the iPhone and iPad',
+            link: '/img/Explore/iPhone_iPad/Camera%20and%20Video%20on%20the%20iPhone%20and%20iPad.pdf',
+            description: 'iPhone_iPad',
+            id: 49
+        },
+        {
+            title: 'Camera',
+            link: '/img/Explore/iPhone_iPad/Camera.pdf',
+            description: 'iPhone_iPad',
+            id: 50
+        },
+        {
+            title: 'Facebook Messenger App',
+            link: '/img/Explore/iPhone_iPad/Facebook%20Messenger%20App.pdf',
+            description: 'iPhone_iPad',
+            id: 51
+        },
+        {
+            title: 'Google Translate',
+            link: '/img/Explore/iPhone_iPad/Google%20Translate.pdf',
+            description: 'iPhone_iPad',
+            id: 52
+        },
+        {
+            title: 'iMovie',
+            link: '/img/Explore/iPhone_iPad/iMovie.pdf',
+            description: 'iPhone_iPad',
+            id: 53
+        },
+        {
+            title: 'iPhone and iPad App Grouping',
+            link: '/img/Explore/iPhone_iPad/iPhone%20and%20iPad%20App%20Grouping.pdf',
+            description: 'iPhone_iPad',
+            id: 54
+        },
+        {
+            title: 'iTunes',
+            link: '/img/Explore/iPhone_iPad/iTunes.pdf',
+            description: 'iPhone_iPad',
+            id: 55
+        },
+        {
+            title: 'Mail App',
+            link: '/img/Explore/iPhone_iPad/Mail%20App.pdf',
+            description: 'iPhone_iPad',
+            id: 56
+        },
+        {
+            title: 'Maps',
+            link: '/img/Explore/iPhone_iPad/Maps.pdf',
+            description: 'iPhone_iPad',
+            id: 57
+        },
+        {
+            title: 'Notes',
+            link: '/img/Explore/iPhone_iPad/Notes.pdf',
+            description: 'iPhone_iPad',
+            id: 58
+        },
+        {
+            title: 'Siri',
+            link: '/img/Explore/iPhone_iPad/Siri.pdf',
+            description: 'iPhone_iPad',
+            id: 59
+        },
+        {
+            title: 'Amazon',
+            link: '/img/Explore/Internet_Email_Cell_Phone/Amazon.pdf',
+            description: 'Internet',
+            id: 60
+        }
 
     ]
 
