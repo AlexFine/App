@@ -82,7 +82,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/exploreLabs',
       views: {
         'menuContent': {
-          templateUrl: 'templates/exploreLabs.html'
+          templateUrl: 'templates/exploreLabs.html',
+          controller: 'exploreCtrl'
         }
       }
     })

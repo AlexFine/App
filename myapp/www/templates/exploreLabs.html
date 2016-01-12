@@ -11,16 +11,43 @@
 
                 <script>
                     console.log("loaded");
-                    console.log({{pdf.link.substring(5, 12)}})
+                    console.log({
+                        {
+                            pdf.link.substring(5, 12)
+                        }
+                    })
                 </script>
 
-                
+
 
                 <circular options="options">
                 </circular>
 
+                <ul class="list">
 
-                <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="pdf.link.substring(5, 12) == 'Explore'">
+                    <li class="item item-checkbox">
+
+                        <label class="checkbox checkbox-assertive">
+
+                            <input type="checkbox" ng-model="internet"> </label>
+                        Internet </li>
+
+                    <li class="item item-checkbox">
+
+                        <label class="checkbox checkbox-assertive">
+
+                            <input type="checkbox" ng-model="social"> </label>
+                        Social Media </li>
+
+                    <li class="item item-checkbox">
+
+                        <label class="checkbox checkbox-assertive">
+
+                            <input type="checkbox" ng-model="windows"> </label>
+                        Windows OS </li>
+                </ul>
+                
+                <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="pdf.link.substring(5, 12) == 'Explore' ((internet && pdf.description == 'Internet') ||(social && pdf.description == 'Social Media') || (windows && pdf.description == 'Windows_OS'))|| (!tutorials && !tips && !explore)">
 
                     <!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
 
