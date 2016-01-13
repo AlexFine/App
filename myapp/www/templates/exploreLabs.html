@@ -58,10 +58,8 @@
                             <input type="checkbox" ng-model="windows"> </label>
                         Windows OS </li>
                 </ul>
-                
-                <a class="item item-avatar" ng-click="openPdf({{pdf.id}})" ng-repeat="pdf in pdfs  | filter:query" ng-if="pdf.link.substring(5, 12) == 'Explore' ((internet && pdf.description == 'Internet') ||(social && pdf.description == 'Social Media') || (windows && pdf.description == 'Windows_OS'))|| (!tutorials && !tips && !explore)">
 
-                    <!--                <img src="http://alexfine.github.io/img/Explore/Using%20Drafts.pdf" style="width:50px; height:50px;">-->
+              <a class="item item-avatar"  ng-repeat="pdf in pdfs  | filter:query" ng-if="((internet && pdf.description == 'Internet') ||(social && pdf.description == 'Social Media') || (windows && pdf.description == 'Windows_OS'))|| (!internet && !social &&!windows)" ng-click="openPdf({{pdf.id}})">
 
                     <img src="http://alexfine.github.io{{pdf.link}}" style="width:50px; height:50px;">
                     <h2>{{pdf.title}} </h2>
