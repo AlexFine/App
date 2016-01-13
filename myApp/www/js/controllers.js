@@ -431,19 +431,84 @@ angular.module('starter.controllers', [])
             description: 'Internet',
             id: 60
         },
-      { title: 'Basic Internet Uses Guide', link: '/img/Tutorials/Basic%20Internet%20Uses%20Guide.pdf', description: 'Tutorials', id:61},
-      { title: 'Cell Phone Survival Guide', link: '/img/Tutorials/Cell%20Phone%20Survival%20Guide.pdf', description: 'Tutorials', id:62},
-      { title: 'Creating a Facebook Account', link: '/img/Tutorials/Creating%20a%20Facebook%20Account.pdf', description: 'Tutorials', id:63},
-      { title: 'Creating a Skype Account', link: '/img/Tutorials/Creating%20a%20Skype%20Account.pdf', description: 'Tutorials', id:64},
-      { title: 'Creating an Email Account', link: '/img/Tutorials/Creating%20an%20Email%20Account.pdf', description: 'Tutorials', id:65},
-      { title: 'Flickr', link: '/img/Tutorials/Flickr.pdf', description: 'Tutorials', id:66},
-      { title: 'iMovie', link: '/img/Tutorials/iMovie.pdf', description: 'Tutorials', id:67},
-      { title: 'Interactions in Facebook', link: '/img/Tutorials/Interactions%20in%20Facebook.pdf', description: 'Tutorials', id:68},
-      { title: 'Making and Receiving FaceTime Calls', link: '/img/Tutorials/Making%20and%20Receiving%20FaceTime%20Calls.pdf', description: 'Tutorials', id:69},
-      { title: 'Navigating the Windows Operating System', link: '/img/Tutorials/Navigating%20the%20Windows%20Operating%20System.pdf', description: 'Tutorials', id:70},
-      { title: 'Sending and Receiving an Email', link: '/img/Tutorials/Sending%20and%20Receiving%20an%20Email.pdf', description: 'Tutorials', id:71},
-      { title: 'Using iPhone and iPad', link: '/img/Tutorials/Using%20iPhone%20and%20iPad.pdf', description: 'Tutorials', id:72},
-      { title: 'Video Conferencing through Skype', link: '/img/Tutorials/Video%20Conferencing%20through%20Skype.pdf', description: 'Tutorials', id:73},
+        {
+            title: 'Basic Internet Uses Guide',
+            link: '/img/Tutorials/Basic%20Internet%20Uses%20Guide.pdf',
+            description: 'Tutorials',
+            id: 61
+        },
+        {
+            title: 'Cell Phone Survival Guide',
+            link: '/img/Tutorials/Cell%20Phone%20Survival%20Guide.pdf',
+            description: 'Tutorials',
+            id: 62
+        },
+        {
+            title: 'Creating a Facebook Account',
+            link: '/img/Tutorials/Creating%20a%20Facebook%20Account.pdf',
+            description: 'Tutorials',
+            id: 63
+        },
+        {
+            title: 'Creating a Skype Account',
+            link: '/img/Tutorials/Creating%20a%20Skype%20Account.pdf',
+            description: 'Tutorials',
+            id: 64
+        },
+        {
+            title: 'Creating an Email Account',
+            link: '/img/Tutorials/Creating%20an%20Email%20Account.pdf',
+            description: 'Tutorials',
+            id: 65
+        },
+        {
+            title: 'Flickr',
+            link: '/img/Tutorials/Flickr.pdf',
+            description: 'Tutorials',
+            id: 66
+        },
+        {
+            title: 'iMovie',
+            link: '/img/Tutorials/iMovie.pdf',
+            description: 'Tutorials',
+            id: 67
+        },
+        {
+            title: 'Interactions in Facebook',
+            link: '/img/Tutorials/Interactions%20in%20Facebook.pdf',
+            description: 'Tutorials',
+            id: 68
+        },
+        {
+            title: 'Making and Receiving FaceTime Calls',
+            link: '/img/Tutorials/Making%20and%20Receiving%20FaceTime%20Calls.pdf',
+            description: 'Tutorials',
+            id: 69
+        },
+        {
+            title: 'Navigating the Windows Operating System',
+            link: '/img/Tutorials/Navigating%20the%20Windows%20Operating%20System.pdf',
+            description: 'Tutorials',
+            id: 70
+        },
+        {
+            title: 'Sending and Receiving an Email',
+            link: '/img/Tutorials/Sending%20and%20Receiving%20an%20Email.pdf',
+            description: 'Tutorials',
+            id: 71
+        },
+        {
+            title: 'Using iPhone and iPad',
+            link: '/img/Tutorials/Using%20iPhone%20and%20iPad.pdf',
+            description: 'Tutorials',
+            id: 72
+        },
+        {
+            title: 'Video Conferencing through Skype',
+            link: '/img/Tutorials/Video%20Conferencing%20through%20Skype.pdf',
+            description: 'Tutorials',
+            id: 73
+        },
         {
             title: 'Basic Internet Uses',
             link: '/img/Presentations/Basic%20Internet%20Uses.pdf',

@@ -27,36 +27,32 @@
 
                     <li class="item item-checkbox">
 
-                        <label class="checkbox checkbox-assertive">
+                        <label class="checkbox checkbox-calm">
                             <input type="checkbox" ng-model="internet"> </label>
                         Internet </li>
 
                     <li class="item item-checkbox">
 
-                        <label class="checkbox checkbox-assertive">
+                        <label class="checkbox checkbox-calm">
                             <input type="checkbox" ng-model="social"> </label>
                         Social Media </li>
 
                     <li class="item item-checkbox">
 
-                        <label class="checkbox checkbox-assertive">
+                        <label class="checkbox checkbox-calm">
                             <input type="checkbox" ng-model="windows"> </label>
                         Windows OS </li>
                     <li class="item item-checkbox">
 
-                        <label class="checkbox checkbox-assertive">
+                        <label class="checkbox checkbox-calm">
                             <input type="checkbox" ng-model="Microsoft"> </label>
                       Microsoft Office </li>
                     <li class="item item-checkbox">
 
-                        <label class="checkbox checkbox-assertive">
+                        <label class="checkbox checkbox-calm">
                             <input type="checkbox" ng-model="iPad"> </label>
                         iPhone iPad </li>
-                    <li class="item item-checkbox">
-
-                        <label class="checkbox checkbox-assertive">
-                            <input type="checkbox" ng-model="Presentations"> </label>
-                      Presentations </li>
+                    
                 </ul>
 
               <a class="item item-avatar"  ng-repeat="pdf in pdfs  | filter:query" ng-if="!(pdf.description == 'Tutorials')&&!(pdf.description == 'Tips')&&((( Microsoft&& pdf.description == 'Microsoft')||(Presentations && pdf.description == 'Presentations')||(iPad && pdf.description == 'iPhone_iPad')||(internet && pdf.description == 'Internet') ||(social && pdf.description == 'Social Media') || (windows && pdf.description == 'Windows_OS'))|| (!iPad && !Microsoft&&!Presentations &&!internet && !social &&!windows))" ng-click="openPdf({{pdf.id}})">
