@@ -128,146 +128,7 @@ angular.module('starter.controllers', [])
             description: 'Internet',
             id: 12
         },
-        {
-            title: 'Tips April 12-18',
-            link: '/img/Tips/Tips%20April%2012-18.pdf',
-            description: 'Tips',
-            num: 14,
-            id: 14
-        },
-        {
-            title: 'Tips April 19-25',
-            link: '/img/Tips/Tips%20April%2019-25.pdf',
-            description: 'Tips',
-            num: 15,
-            id: 15
-        },
-        {
-            title: 'Tips April 26 - May 2',
-            link: '/img/Tips/Tips%20April%2026%20-%20May%202.pdf',
-            description: 'Tips',
-            num: 16,
-            id: 16
-        },
-        {
-            title: 'Tips April 5-11',
-            link: '/img/Tips/Tips%20April%205-11.pdf',
-            description: 'Tips',
-            num: 13,
-            id: 17
-        },
-        {
-            title: 'Tips February 1-7',
-            link: '/img/Tips/Tips%20Feb%201-7.pdf',
-            description: 'Tips',
-            num: 5,
-            id: 18
-        },
-        {
-            title: 'Tips February 15-21',
-            link: '/img/Tips/Tips%20Feb%2015-21.pdf',
-            description: 'Tips',
-            num: 7,
-            id: 19
-        },
-        {
-            title: 'Tips February 22-28',
-            link: '/img/Tips/Tips%20Feb%2022-28.pdf',
-            description: 'Tips',
-            num: 8,
-            id: 20
-        },
-        {
-            title: 'Tips February 8-14',
-            link: '/img/Tips/Tips%20Feb%208-14.pdf',
-            description: 'Tips',
-            num: 6,
-            id: 21
-        },
-        {
-            title: 'Tips January 11-17',
-            link: '/img/Tips/Tips%20Jan%2011-17.pdf',
-            description: 'Tips',
-            num: 1,
-            id: 22
-        },
-        {
-            title: 'Tips January 18-24',
-            link: '/img/Tips/Tips%20Jan%2018-24.pdf',
-            description: 'Tips',
-            num: 2,
-            id: 23
-        },
-        {
-            title: 'Tips January 25-31',
-            link: '/img/Tips/Tips%20Jan%2025-31.pdf',
-            description: 'Tips',
-            num: 3,
-            id: 24
-        },
-        {
-            title: 'Tips January 4-10',
-            link: '/img/Tips/Tips%20Jan%204-10.pdf',
-            description: 'Tips',
-            num: 4,
-            id: 25
-        },
-        {
-            title: 'Tips March 1-7',
-            link: '/img/Tips/Tips%20Mar%201-7.pdf',
-            description: 'Tips',
-            num: 9,
-            id: 26
-        },
-        {
-            title: 'Tips March 8-14',
-            link: '/img/Tips/Tips%20Mar%208-14.pdf',
-            description: 'Tips',
-            num: 10,
-            id: 30
-        },
-        {
-            title: 'Tips March 15-21',
-            link: '/img/Tips/Tips%20Mar%2015-21.pdf',
-            description: 'Tips',
-            num: 10,
-            id: 27
-        },
-        {
-            title: 'Tips March 22-28',
-            link: '/img/Tips/Tips%20Mar%2022-28.pdf',
-            description: 'Tips',
-            num: 11,
-            id: 28
-        },
-        {
-            title: 'Tips March 29 - April 4',
-            link: '/img/Tips/Tips%20Mar%2029%20-%20April%204.pdf',
-            description: 'Tips',
-            num: 12,
-            id: 29
-        },
-        {
-            title: 'Tips May 10-16',
-            link: '/img/Tips/Tips%20May%2010-16.pdf',
-            description: 'Tips',
-            num: 17,
-            id: 31
-        },
-        {
-            title: 'Tips May 17-23',
-            link: '/img/Tips/Tips%20May%2017-23.pdf',
-            description: 'Tips',
-            num: 18,
-            id: 32
-        },
-        {
-            title: 'Tips May 3-9',
-            link: '/img/Tips/Tips%20May%203-9.pdf',
-            description: 'Tips',
-            num: 16,
-            id: 33
-        },
+
 
         {
             title: 'Microsoft Excel',
@@ -551,6 +412,52 @@ angular.module('starter.controllers', [])
             description: 'Presentations',
             id: 80
         },
+      { title: 'Tips April 12-18', link: '/img/Tips/Tips%20April%2012-18.pdf', description: 'Tips', id:81, num:0},
+      { title: 'Tips April 19-25', link: '/img/Tips/Tips%20April%2019-25.pdf', description: 'Tips', id:82, num:1},
+      { title: 'Tips April 26 - May 2', link: '/img/Tips/Tips%20April%2026%20-%20May%202.pdf', description: 'Tips', id:83, num:2},
+      { title: 'Tips April 5-11', link: '/img/Tips/Tips%20April%205-11.pdf', description: 'Tips', id:84, num:3},
+      { title: 'Tips Aug 16-22', link: '/img/Tips/Tips%20Aug%2016-22.pdf', description: 'Tips', id:85, num:4},
+      { title: 'Tips Aug 2-8', link: '/img/Tips/Tips%20Aug%202-8.pdf', description: 'Tips', id:86, num:5},
+      { title: 'Tips Aug 23-29', link: '/img/Tips/Tips%20Aug%2023-29.pdf', description: 'Tips', id:87, num:6},
+      { title: 'Tips Aug 30 - Sept 5', link: '/img/Tips/Tips%20Aug%2030%20-%20Sept%205.pdf', description: 'Tips', id:88, num:7},
+      { title: 'Tips Aug 9-15', link: '/img/Tips/Tips%20Aug%209-15.pdf', description: 'Tips', id:89, num:8},
+      { title: 'Tips Feb 1-7', link: '/img/Tips/Tips%20Feb%201-7.pdf', description: 'Tips', id:90, num:9},
+      { title: 'Tips Feb 15-21', link: '/img/Tips/Tips%20Feb%2015-21.pdf', description: 'Tips', id:91, num:10},
+      { title: 'Tips Feb 22-28', link: '/img/Tips/Tips%20Feb%2022-28.pdf', description: 'Tips', id:92, num:11},
+      { title: 'Tips Feb 8-14', link: '/img/Tips/Tips%20Feb%208-14.pdf', description: 'Tips', id:93, num:12},
+      { title: 'Tips Jan 11-17', link: '/img/Tips/Tips%20Jan%2011-17.pdf', description: 'Tips', id:94, num:13},
+      { title: 'Tips Jan 18-24', link: '/img/Tips/Tips%20Jan%2018-24.pdf', description: 'Tips', id:95, num:14},
+      { title: 'Tips Jan 25-31', link: '/img/Tips/Tips%20Jan%2025-31.pdf', description: 'Tips', id:96, num:15},
+      { title: 'Tips Jan 4-10', link: '/img/Tips/Tips%20Jan%204-10.pdf', description: 'Tips', id:97, num:16},
+      { title: 'Tips July 12-18', link: '/img/Tips/Tips%20July%2012-18.pdf', description: 'Tips', id:98, num:17},
+      { title: 'Tips July 19-25', link: '/img/Tips/Tips%20July%2019-25.pdf', description: 'Tips', id:99, num:18},
+      { title: 'Tips July 26 - Aug 1', link: '/img/Tips/Tips%20July%2026%20-%20Aug%201.pdf', description: 'Tips', id:100, num:19},
+      { title: 'Tips July 5-11', link: '/img/Tips/Tips%20July%205-11.pdf', description: 'Tips', id:101, num:20},
+      { title: 'Tips June 14-20', link: '/img/Tips/Tips%20June%2014-20.pdf', description: 'Tips', id:102, num:21},
+      { title: 'Tips June 21-27', link: '/img/Tips/Tips%20June%2021-27.pdf', description: 'Tips', id:103, num:22},
+      { title: 'Tips June 28 - July 4', link: '/img/Tips/Tips%20June%2028%20-%20July%204.pdf', description: 'Tips', id:104, num:23},
+      { title: 'Tips June 7-13', link: '/img/Tips/Tips%20June%207-13.pdf', description: 'Tips', id:105, num:24},
+      { title: 'Tips Mar 1-7', link: '/img/Tips/Tips%20Mar%201-7.pdf', description: 'Tips', id:106, num:25},
+      { title: 'Tips Mar 15-21', link: '/img/Tips/Tips%20Mar%2015-21.pdf', description: 'Tips', id:107, num:26},
+      { title: 'Tips Mar 22-28', link: '/img/Tips/Tips%20Mar%2022-28.pdf', description: 'Tips', id:108, num:27},
+      { title: 'Tips Mar 29 - April 4', link: '/img/Tips/Tips%20Mar%2029%20-%20April%204.pdf', description: 'Tips', id:109, num:28},
+      { title: 'Tips Mar 8-14', link: '/img/Tips/Tips%20Mar%208-14.pdf', description: 'Tips', id:110, num:29},
+      { title: 'Tips May 10-16', link: '/img/Tips/Tips%20May%2010-16.pdf', description: 'Tips', id:111, num:30},
+      { title: 'Tips May 17-23', link: '/img/Tips/Tips%20May%2017-23.pdf', description: 'Tips', id:112, num:31},
+      { title: 'Tips May 24-30', link: '/img/Tips/Tips%20May%2024-30.pdf', description: 'Tips', id:113, num:32},
+      { title: 'Tips May 3-9', link: '/img/Tips/Tips%20May%203-9.pdf', description: 'Tips', id:114, num:33},
+      { title: 'Tips May 31 - June 6', link: '/img/Tips/Tips%20May%2031%20-%20June%206.pdf', description: 'Tips', id:115, num:34},
+      { title: 'Tips Nov 15-21', link: '/img/Tips/Tips%20Nov%2015-21.pdf', description: 'Tips', id:116, num:35},
+      { title: 'Tips Nov 22-28', link: '/img/Tips/Tips%20Nov%2022-28.pdf', description: 'Tips', id:117, num:36},
+      { title: 'Tips Nov 8-14', link: '/img/Tips/Tips%20Nov%208-14.pdf', description: 'Tips', id:118, num:37},
+      { title: 'Tips Oct 11-17', link: '/img/Tips/Tips%20Oct%2011-17.pdf', description: 'Tips', id:119, num:38},
+      { title: 'Tips Oct 18-24', link: '/img/Tips/Tips%20Oct%2018-24.pdf', description: 'Tips', id:120, num:39},
+      { title: 'Tips Oct 25-31', link: '/img/Tips/Tips%20Oct%2025-31.pdf', description: 'Tips', id:121, num:40},
+      { title: 'Tips Oct 4-10', link: '/img/Tips/Tips%20Oct%204-10.pdf', description: 'Tips', id:122, num:41},
+      { title: 'Tips Sept 13-19', link: '/img/Tips/Tips%20Sept%2013-19.pdf', description: 'Tips', id:123, num:42},
+      { title: 'Tips Sept 20-26', link: '/img/Tips/Tips%20Sept%2020-26.pdf', description: 'Tips', id:124, num:43},
+      { title: 'Tips Sept 27 - Oct 3', link: '/img/Tips/Tips%20Sept%2027%20-%20Oct%203.pdf', description: 'Tips', id:125, num:44},
+      { title: 'Tips Sept 6-12', link: '/img/Tips/Tips%20Sept%206-12.pdf', description: 'Tips', id:126, num:45}
 
 
 

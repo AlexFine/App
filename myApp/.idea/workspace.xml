@@ -21,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.444445">
-              <caret line="478" column="29" selection-start-line="478" selection-start-column="29" selection-end-line="478" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.73333335">
+              <caret line="394" column="111" selection-start-line="394" selection-start-column="111" selection-end-line="394" selection-end-column="111" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exploreLabs.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exploreLabs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/exploreLabs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6082949">
+            <state vertical-scroll-proportion="-14.823529">
               <caret line="61" column="78" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -48,8 +48,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/templates/exploreLabs.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
       </list>
     </option>
   </component>
@@ -66,7 +66,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
+    <option name="x" value="238" />
+    <option name="width" value="1042" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -225,11 +226,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="238" y="0" width="1042" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24225576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29872674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -345,21 +346,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.444445">
-          <caret line="478" column="29" selection-start-line="478" selection-start-column="29" selection-end-line="478" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/exploreLabs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6082949">
+        <state vertical-scroll-proportion="-14.823529">
           <caret line="61" column="78" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
           <folding>
             <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73333335">
+          <caret line="394" column="111" selection-start-line="394" selection-start-column="111" selection-end-line="394" selection-end-column="111" />
+          <folding />
         </state>
       </provider>
     </entry>
