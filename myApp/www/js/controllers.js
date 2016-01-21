@@ -856,14 +856,14 @@ angular.module('starter.controllers', [])
 
                 'name': $scope.name,
                 'email': $scope.email,
-
+                'phonenumber': $scope.phonenumber,
                 'comments': $scope.comments
 
             };
             var emails = {
                 to: ["josh@technocademy.org"],
                 subject: 'Help for ' + config.name,
-                body: config.comments + "Contact me at:" + config.email,
+                body: config.comments + "Contact me at:" + config.email + "or" + config.phonenumber,
                 isHtml: false
             };
             console.log(config.name);
