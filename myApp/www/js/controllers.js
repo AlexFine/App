@@ -856,6 +856,7 @@ angular.module('starter.controllers', [])
 
                 'name': $scope.name,
                 'email': $scope.email,
+                'subject':"help needed",
                 'phonenumber': $scope.phonenumber,
                 'comments': $scope.comments
 
