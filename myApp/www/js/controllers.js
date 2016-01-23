@@ -863,8 +863,8 @@ angular.module('starter.controllers', [])
             };
             var emails = {
                 to: ["josh@technocademy.org"],
-                subject: 'Help for ' + config.name,
-                body: config.comments + "Contact me at:" + config.email + "or" + config.phonenumber,
+                subject: "Help Needed from Technocademy App",
+                body: config.comments + "/n Contact me at:" + config.email + " or " + config.phonenumber,
                 isHtml: false
             };
             console.log(config.name);
