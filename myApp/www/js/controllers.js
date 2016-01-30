@@ -174,25 +174,25 @@ angular.module('starter.controllers', [])
         },
         {
             title: 'Downloading Security Programs',
-            link: '/img/Explore/Social_Media/Downloading%20Security%20Programs.pdf',
+            link: '/img/Explore/Windows_OS/Downloading%20Security%20Programs.pdf',
             description: 'Windows_OS',
             id: 41
         },
         {
             title: 'iTunes on Windows Computer Part II',
-            link: '/img/Explore/Social_Media/iTunes%20on%20Windows%20Computer%20Part%20II.pdf',
+            link: '/img/Explore/Windows_OS/iTunes%20on%20Windows%20Computer%20Part%20II.pdf',
             description: 'Windows_OS',
             id: 42
         },
         {
             title: 'iTunes on Windows Computer',
-            link: '/img/Explore/Social_Media/iTunes%20on%20Windows%20Computer.pdf',
+            link: '/img/Explore/Windows_OS/iTunes%20on%20Windows%20Computer.pdf',
             description: 'Windows_OS',
             id: 43
         },
         {
             title: 'Windows File System',
-            link: '/img/Explore/Social_Media/Windows%20File%20System.pdf',
+            link: '/img/Explore/Windows_OS/Windows%20File%20System.pdf',
             description: 'Windows_OS',
             id: 44
         },
