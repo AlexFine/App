@@ -51,11 +51,11 @@
 
                         <label class="checkbox checkbox-calm">
                             <input type="checkbox" ng-model="iPad"> </label>
-                        iPhone iPad </li>
-                    
+                        iPhone and iPad </li>
+
                 </ul>
 
-              <a class="item item-avatar"  ng-repeat="pdf in pdfs  | filter:query" ng-if="!(pdf.description == 'Tutorials')&&!(pdf.description == 'Tips')&&((( Microsoft&& pdf.description == 'Microsoft')||(Presentations && pdf.description == 'Presentations')||(iPad && pdf.description == 'iPhone_iPad')||(internet && pdf.description == 'Internet') ||(social && pdf.description == 'Social Media') || (windows && pdf.description == 'Windows_OS'))|| (!iPad && !Microsoft&&!Presentations &&!internet && !social &&!windows)) && pdf.link.substring(5, 12) == 'Explore'" ng-click="openPdf({{pdf.id}})">
+              <a class="item item-avatar"  ng-repeat="pdf in pdfs  | filter:query" ng-if="!(pdf.description == 'Tutorials')&&!(pdf.description == 'Tips')&&((( Microsoft&& pdf.description == 'Microsoft')||(Presentations && pdf.description == 'Presentations')||(iPad && pdf.description == 'iPhone and iPad')||(internet && pdf.description == 'Internet') ||(social && pdf.description == 'Social Media') || (windows && pdf.description == 'Windows_OS'))|| (!iPad && !Microsoft&&!Presentations &&!internet && !social &&!windows)) && pdf.link.substring(5, 12) == 'Explore'" ng-click="openPdf({{pdf.id}})">
 
                     <img src="http://alexfine.github.io{{pdf.link}}" style="width:50px; height:50px;">
                     <h2>{{pdf.title}} </h2>

@@ -199,91 +199,91 @@ angular.module('starter.controllers', [])
         {
             title: 'Adding Pictures and Video to iPhone Messages',
             link: '/img/Explore/iPhone_iPad/Adding%20Pictures%20and%20Video%20to%20iPhone%20Messages.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 45
         },
         {
             title: 'Alarms',
             link: '/img/Explore/iPhone_iPad/Alarms.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 46
         },
         {
             title: 'App Store',
             link: '/img/Explore/iPhone_iPad/App%20Store.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 47
         },
         {
             title: 'Apple ID',
             link: '/img/Explore/iPhone_iPad/Apple%20ID.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 48
         },
         {
             title: 'Camera and Video on the iPhone and iPad',
             link: '/img/Explore/iPhone_iPad/Camera%20and%20Video%20on%20the%20iPhone%20and%20iPad.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 49
         },
         {
             title: 'Camera',
             link: '/img/Explore/iPhone_iPad/Camera.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 50
         },
         {
             title: 'Facebook Messenger App',
             link: '/img/Explore/iPhone_iPad/Facebook%20Messenger%20App.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 51
         },
         {
             title: 'Google Translate',
             link: '/img/Explore/iPhone_iPad/Google%20Translate.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 52
         },
         {
             title: 'iMovie',
             link: '/img/Explore/iPhone_iPad/iMovie.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 53
         },
         {
             title: 'iPhone and iPad App Grouping',
             link: '/img/Explore/iPhone_iPad/iPhone%20and%20iPad%20App%20Grouping.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 54
         },
         {
             title: 'iTunes',
             link: '/img/Explore/iPhone_iPad/iTunes.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 55
         },
         {
             title: 'Mail App',
             link: '/img/Explore/iPhone_iPad/Mail%20App.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 56
         },
         {
             title: 'Maps',
             link: '/img/Explore/iPhone_iPad/Maps.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 57
         },
         {
             title: 'Notes',
             link: '/img/Explore/iPhone_iPad/Notes.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 58
         },
         {
             title: 'Siri',
             link: '/img/Explore/iPhone_iPad/Siri.pdf',
-            description: 'iPhone_iPad',
+            description: 'iPhone and iPad',
             id: 59
         },
         {
@@ -325,7 +325,7 @@ angular.module('starter.controllers', [])
         {
             title: 'Flickr',
             link: '/img/Tutorials/Flickr.pdf',
-            description: 'Tutorials',
+            description: 'Explore',
             id: 66
         },
         {
@@ -704,12 +704,15 @@ angular.module('starter.controllers', [])
         toolbar: 'yes'
     };
     $scope.openPdf = function (num) {
-        console.log($scope.pdfs[num]["link"]);
-        path = "http://alexfine.github.io" + $scope.pdfs[num]["link"]
-            //PDFReader.open(path);
-        console.log(path);
-        window.open(path, '_blank', 'location=no,closebuttoncaption=Close,enableViewportScale=yes');
-        console.log(path);
+        for(x=0;x<$scope.pdfs.length;x++){
+          if(num ==$scope.pdfs[x].id ){
+          path = "http://alexfine.github.io" + $scope.pdfs[x]["link"]
+          //PDFReader.open(path);
+          console.log(path);
+          window.open(path, '_blank', 'location=no,closebuttoncaption=Close,enableViewportScale=yes');
+          console.log(path);}
+        }
+
     };
 
     $scope.options = {
