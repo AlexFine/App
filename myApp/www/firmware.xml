@@ -1,0 +1,427 @@
+<boards>
+  <!--
+     Firmware for The Replicator 2X , Hardware release G+
+  -->
+  <board name="MakerBot Replicator 2X" icon="icon-mb24.png">
+    <version major="1" minor="7"/><!-- 7 for 'Hardware G' -->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>m1280</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_twox-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish 7.7 (r1432)"
+	      description="Sailfish Firmware 7.7 (r1432).  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_twox-Sailfish-v7.6.0-r1220.hex"
+	      name="Sailfish 7.6 (r1220)"
+	      description="Sailfish Firmware 7.6 (r1220).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="5" relpath="firmware/mighty_twox-Sailfish-v7.5.0-r1135.hex"
+	      name="Sailfish 7.5 (r1135)"
+	      description="Sailfish Firmware 7.5 (r1135).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="4" relpath="firmware/mighty_twox-Sailfish-v7.4.0-r1062.hex"
+	      name="Sailfish 7.4 (r1062)"
+	      description="Sailfish Firmware 7.4 (r1062).  Requires ReplicatorG 40r16-Sailfish in order to change Onboard Parameters."/>
+    <firmware major="7" minor="3" relpath="firmware/mighty_two-Sailfish-v7.3.0-r942C.hex"
+	      name="Sailfish 7.3 (r942C)"
+	      description="Sailfish Firmware 7.3 (r942C). Requires ReplicatorG 40r10-Sailfish in order to change new Onboard Parameters."/>
+    <firmware major="7" minor="7" relpath="firmware/mighty_twox-Sailfish-v7.7.0-r1432b.hex"
+	      name="Sailfish 7.7 (r1432b)"
+	      description="Sailfish Firmware 7.7 (r1432b) for bots with broken SD card hardware.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_twox-Sailfish-v7.6.0-r1220b.hex"
+	      name="Sailfish 7.6 (r1220b)"
+	      description="Sailfish Firmware 7.6 (r1220b) for bots with broken SD card hardware.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <!--
+      Firmware for The Replicator 2X, Hardware release G w/2560
+  -->
+  <board name="MakerBot Replicator 2X with ATmega 2560" icon="icon-mb24.png">
+    <version major="1" minor="7"/><!-- 7 for 'Hardware G' -->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v2</protocol>
+      <speed>57600</speed>
+      <arch>m2560</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_twox-2560-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish 7.7 (r1432)"
+	      description="Sailfish Firmware 7.7 (r1432).  This firmware is for RevG MightyBoards which use an ATmega2560 processor.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_twox-2560-Sailfish-v7.6.0-r1220.hex"
+	      name="Sailfish 7.6 (r1220)"
+	      description="Sailfish Firmware 7.6 (r1220).  This firmware is for RevG MightyBoards which use an ATmega2560 processor.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <!--
+      Firmware for The Replicator 2 , Hardware release G+
+  -->
+  <board name="MakerBot Replicator 2" icon="icon-mb24.png">
+    <version major="1" minor="7"/><!-- 7 for 'Hardware G' -->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>m1280</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_two-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish 7.7 (r1432)"
+	      description="Sailfish Firmware 7.7 (r1432).  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_two-Sailfish-v7.6.0-r1220.hex"
+	      name="Sailfish 7.6 (r1220)"
+	      description="Sailfish Firmware 7.6 (r1220).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="5" relpath="firmware/mighty_two-Sailfish-v7.5.0-r1135.hex"
+	      name="Sailfish 7.5 (r1135)"
+	      description="Sailfish Firmware 7.5 (r1135).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="4" relpath="firmware/mighty_two-Sailfish-v7.4.0-r1062.hex"
+	      name="Sailfish 7.4 (r1062)"
+	      description="Sailfish Firmware 7.4 (r1062).  Requires ReplicatorG 40r16-Sailfish in order to change Onboard Parameters."/>
+    <firmware major="7" minor="3" relpath="firmware/mighty_two-Sailfish-v7.3.0-r942C.hex"
+	      name="Sailfish 7.3 (r942C)"
+	      description="Sailfish Firmware 7.3 (r942C). Requires ReplicatorG 40r10-Sailfish in order to change new Onboard Parameters."/>
+    <firmware major="7" minor="1" relpath="firmware/mighty_two-Sailfish-v7.1.0-r895.hex"
+	      name="Sailfish 7.1 (r895)"
+	      description="Sailfish Firmware 7.1 (r895). Fixes pause issue with the left extruder on a dual extruder bot.  Fixes last print time reporting.  Requires ReplicatorG 40r5-Sailfish in order to change Onboard Parameters.  Obtain from Thingiverse Thing #32084."/>
+    <firmware major="7" minor="7" relpath="firmware/mighty_two-Sailfish-v7.7.0-r1432b.hex"
+	      name="Sailfish 7.7 (r1432b)"
+	      description="Sailfish Firmware 7.7 (r1432b) for bots with broken SD card hardware.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_two-Sailfish-v7.6.0-r1220b.hex"
+	      name="Sailfish 7.6 (r1220b)"
+	      description="Sailfish Firmware 7.6 (r1220b) for bots with broken SD card hardware.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>  </board>
+  <!--
+      Firmware for The Replicator 2 , Hardware release G w/2560
+  -->
+  <board name="MakerBot Replicator 2 with ATmega 2560" icon="icon-mb24.png">
+    <version major="1" minor="7"/><!-- 7 for 'Hardware G' -->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v2</protocol>
+      <speed>57600</speed>
+      <arch>m2560</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_two-2560-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish 7.7 (r1432)"
+	      description="Sailfish Firmware 7.7 (r1432).  This firmware is for RevG MightyBoards which use an ATmega2560 processor.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_two-2560-Sailfish-v7.6.0-r1220.hex"
+	      name="Sailfish 7.6 (r1220)"
+	      description="Sailfish Firmware 7.6 (r1220).  This firmware is for RevG MightyBoards which use an ATmega2560 processor.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <!--
+      Firmware for The Replicator, Hardware release E
+  -->
+  <board name="MakerBot Replicator 1 Single &amp; Dual" icon="icon-mb24.png">
+    <version major="1" minor="5"/><!-- 5 for 'Hardware E'-->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>m1280</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_one-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish 7.7 (r1432)"
+	      description="Sailfish sFirmware 7.7 (r1432).  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_one-Sailfish-v7.6.0-r1220.hex"
+	      name="Sailfish 7.6 (r1220)"
+	      description="Sailfish sFirmware 7.6 (r1220).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="5" relpath="firmware/mighty_one-Sailfish-v7.5.0-r1119.hex"
+	      name="Sailfish 7.5 (r1119)"
+	      description="Sailfish Firmware 7.5 (r1119).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="4" relpath="firmware/mighty_one-Sailfish-v7.4.0-r1062.hex"
+	      name="Sailfish 7.4 (r1062)"
+	      description="Sailfish Firmware 7.4 (r1062).  Requires ReplicatorG 40r16-Sailfish in order to change Onboard Parameters."/>
+    <firmware major="7" minor="3" relpath="firmware/mighty_one-Sailfish-v7.3.0-r942Cb.hex"
+	      name="Sailfish 7.3 (r942Cb)"
+	      description="Sailfish Firmware 7.3 (r942Cb) for bots with broken SD card hardware.  Requires ReplicatorG 40r10-Sailfish in order to change new Onboard Parameters."/>
+    <firmware major="7" minor="1" relpath="firmware/mighty_one-Sailfish-v7.1.0-r895.hex"
+	      name="Sailfish 7.1 (r895)"
+	      description="Sailfish Firmware 7.1 (r895).  Fixes pause issue with the left extruder on a dual extruder bot.  Fixes last print time reporting.  Requires ReplicatorG 40r5-Sailfish in order to change Onboard Parameters.  Obtain from Thingiverse Thing #32084."/>
+    <firmware major="7" minor="0" relpath="firmware/Mighty-mb40-Sailfish-v7.0.0-r721.hex"
+	      name="Sailfish 7.0 (r721)"
+	      description="Sailfish Firmware v7.0 (r721). Requires ReplicatorG 39-Sailfish. Please upgrade both (Motherboard, ReplicatorG) at this time."/>
+    <firmware major="6" minor="2" relpath="firmware/Mighty-mb40-Sailfish-v6.2.0-r650.hex"
+	      name="Sailfish 6.2 (r650)"
+	      description="Sailfish Firmware v6.2 (r650). Requires ReplicatorG 39-Sailfish. Please upgrade both (Motherboard, ReplicatorG) at this time."/>
+    <firmware major="7" minor="7" relpath="firmware/mighty_one-Sailfish-v7.7.0-r1432b.hex"
+	      name="Sailfish 7.7 (r1432b)"
+	      description="Sailfish Firmware 7.7 (r1432b) for bots with broken SD card hardware.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_one-Sailfish-v7.6.0-r1220b.hex"
+	      name="Sailfish 7.6 (r1220b)"
+	      description="Sailfish Firmware 7.6 (r1220b) for bots with broken SD card hardware.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <board name="MakerBot Replicator 1 with ATmega 2560" icon="icon-mb24.png">
+    <version major="1" minor="5"/>
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v2</protocol>
+      <speed>57600</speed>
+      <arch>m2560</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_one-2560-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish 7.7 (r1432)"
+	      description="Sailfish Firmware 2560 + MAX6675 7.7 (r1432).  This firmware is for RevE MightyBoards which use an ATmega 2560 processor and the standard MAX6675 thermocouple measurement chips.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="7" relpath="firmware/mighty_one-2560-max31855-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish MAX31855 7.7 (r1432)"
+	      description="Sailfish Firmware 2560 + MAX31855 7.6 (r1432).  This firmware is for RevE MightyBoards which use an ATmega 2560 processor and MAX31855 thermocouple measurement chips.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_one-2560-Sailfish-v7.6.0-r1220.hex"
+	      name="Sailfish 7.6 (r1220)"
+	      description="Sailfish Firmware 2560 + MAX6675 7.6 (r1220).  This firmware is for RevE MightyBoards which use an ATmega 2560 processor and the standard MAX6675 thermocouple measurement chips.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_one-2560-max31855-Sailfish-v7.6.0-r1220.hex"
+	      name="Sailfish MAX31855 7.6 (r1220)"
+	      description="Sailfish Firmware 2560 + MAX31855 7.6 (r1220).  This firmware is for RevE MightyBoards which use an ATmega 2560 processor and MAX31855 thermocouple measurement chips.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="5" relpath="firmware/mighty_one-2560-Sailfish-v7.5.0-r1119.hex"
+	      name="Sailfish 7.5 (r1119)"
+	      description="Sailfish Firmware 2560 + MAX6675 7.5 (r1119).  This firmware is for RevE MightyBoards which use an ATmega 2560 processor and the standard MAX6675 thermocouple measurement chips.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="5" relpath="firmware/mighty_one-2560-max31855-Sailfish-v7.5.0-r1119.hex"
+	      name="Sailfish MAX31855 7.5 (r1119)"
+	      description="Sailfish Firmware 2560 + MAX31855 7.5 (r1119).  This firmware is for RevE MightyBoards which use an ATmega 2560 processor and MAX31855 thermocouple measurement chips.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="4" relpath="firmware/mighty_one-2560-Sailfish-v7.4.0-r1062.hex"
+	      name="Sailfish 7.4 (r1062)"
+	      description="Sailfish Firmware 2560 + MAX6675 7.4 (r1062).  This firmware is for RevE MightyBoards which use an ATmega 2560 processor and the standard MAX6675 thermocouple measurement chips.  Requires ReplicatorG 40r16-Sailfish in order to change Onboard Parameters."/>
+    <firmware major="7" minor="4" relpath="firmware/mighty_one-2560-max31855-Sailfish-v7.4.0-r1062.hex"
+	      name="Sailfish MAX31855 7.4 (r1062)"
+	      description="Sailfish Firmware 2560 + MAX31855 7.4 (r1062).  This firmware is for RevE MightyBoards which use an ATmega 2560 processor and MAX31855 thermocouple measurement chips.  Requires ReplicatorG 40r16-Sailfish in order to change Onboard Parameters."/>
+  </board>
+  <board name="Clone R1 with ATmega 2560" icon="icon-mb24.png">
+    <version major="1" minor="7"/><!-- 7 for 'Hardware G' -->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v2</protocol>
+      <speed>57600</speed>
+      <arch>m2560</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_one-2560-clone-r1-Sailfish-v7.7.0-r1592.hex"
+	      name="Sailfish 7.7 (r1592)"
+	      description="Sailfish Firmware 7.7 (r1592).  This firmware is for the Clone R1 and requires ReplicatorG 40r32-Sailfish or later in order to connect via USB."/>
+  </board>
+  <!--
+      Firmware for the FlashForge Creator X with ATmega 2560, Hardware release E
+  -->
+  <board name="FlashForge Creator Pro &amp; X with ATmega 2560" icon="icon-mb24.png">
+    <version major="1" minor="7"/><!-- 7 for 'Hardware G' -->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v2</protocol>
+      <speed>57600</speed>
+      <arch>m2560</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/ff_creatorx-2560-Sailfish-v7.7.0-r1592.hex"
+	      name="Sailfish 7.7 (r1592)"
+	      description="Sailfish Firmware 7.7 (r1592).  This firmware is for Creator X units shipped from FlashForge with an ATmega2560.  If you installed your own ATmega2560, you do not want to use this build as it expects a different HBP.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/ff_creatorx-2560-Sailfish-v7.6.0-r1296.hex"
+	      name="Sailfish 7.6 (r1296)"
+	      description="Sailfish Firmware 7.6 (r1296).  This firmware is for Creator X units shipped from FlashForge with an ATmega2560.  If you installed your own ATmega2560, you do not want to use this build as it expects a different HBP.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="7" relpath="firmware/ff_creatorx-2560-Sailfish-v7.7.0-r1416b.hex"
+	      name="Sailfish 7.7 (r1416b)"
+	      description="Sailfish Firmware 7.7 (r1416b).  This firmware is for Creator X units shipped from FlashForge with an ATmega2560 but with malfunctioning SD card hardware.  If you installed your own ATmega2560, you do not want to use this build as it expects a different HBP.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+  </board>
+  <board name="FlashForge Creator I, II &amp; X" icon="icon-mb24.png">
+    <version major="1" minor="5"/><!-- 5 for 'Hardware E'-->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>m1280</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/ff_creator-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish 7.7 (r1432)"
+	      description="Sailfish Firmware 7.7 (r1432) for Replicator 1 clones with 34.0 mm nozzle spacing.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/ff_creator-Sailfish-v7.6.0-r1228.hex"
+	      name="Sailfish 7.6 (r1228)"
+	      description="Sailfish Firmware 7.6 (r1228) for Replicator 1 clones with 34.0 mm nozzle spacing.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="7" relpath="firmware/ff_creator-Sailfish-v7.7.0-r1432b.hex"
+	      name="Sailfish 7.7 (r1432b)"
+	      description="Sailfish Firmware 7.7 (r1432b) for Replicator 1 clones with 34.0 mm nozzle spacing.  This 'r1432b' build is for bots with broken SD card hardware.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/ff_creator-Sailfish-v7.6.0-r1228b.hex"
+	      name="Sailfish 7.6 (r1228b)"
+	      description="Sailfish Firmware 7.6 (r1228b) for Replicator 1 clones with 34.0 mm nozzle spacing.  This 'r1228b' build is for bots with broken SD card hardware.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <board name="Wanhao Duplicator 4" icon="icon-mb24.png">
+    <version major="1" minor="5"/><!-- 5 for 'Hardware E'-->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>m1280</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/wanhao_dup4-Sailfish-v7.7.0-r1432.hex"
+	      name="Sailfish 7.7 (r1432)"
+	      description="Sailfish Firmware 7.7 (r1432) for Replicator 1 clones with 33.0 mm nozzle spacing.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/wanhao_dup4-Sailfish-v7.6.0-r1220.hex"
+	      name="Sailfish 7.6 (r1220)"
+	      description="Sailfish Firmware 7.6 (r1220) for Replicator 1 clones with 33.0 mm nozzle spacing.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="7" relpath="firmware/wanhao_dup4-Sailfish-v7.7.0-r1432b.hex"
+	      name="Sailfish 7.7 (r1432b)"
+	      description="Sailfish Firmware 7.7 (r1432b) for Replicator 1 clones with 33.0 mm nozzle spacing.  This 'r1432b' build is for bots with broken SD card hardware.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/wanhao_dup4-Sailfish-v7.6.0-r1220b.hex"
+	      name="Sailfish 7.6 (r1220b)"
+	      description="Sailfish Firmware 7.6 (r1220b) for Replicator 1 clones with 33.0 mm nozzle spacing.  This 'r1220b' build is for bots with broken SD card hardware.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <board name="Core-XY MightyBoard revE" icon="icon-mb24.png">
+    <version major="1" minor="5"/><!-- 5 for 'Hardware E'-->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>m1280</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_one-corexy-Sailfish-v7.7.0-r1465.hex"
+	      name="Sailfish Core-XY 7.7 (r1465)"
+	      description="Sailfish Core-XY Firmware 7.7 (r1465).  **Assumes the bot has a power supply capable of running all heaters concurrently with stepper motors at operating currents.**  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_one-corexy-Sailfish-v7.6.0-r1229.hex"
+	      name="Sailfish Core-XY 7.6 (r1229)"
+	      description="Sailfish Core-XY Firmware 7.6 (r1229).  **Assumes the bot has a power supply capable of running all heaters concurrently with stepper motors at operating currents.**  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <board name="Core-XY MightyBoard revE with ATmega 2560" icon="icon-mb24.png">
+    <version major="1" minor="5"/><!-- 5 for 'Hardware E'-->
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v2</protocol>
+      <speed>57600</speed>
+      <arch>m2560</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware major="7" minor="7" relpath="firmware/mighty_one-2560-corexy-Sailfish-v7.7.0-r1465.hex"
+	      name="Sailfish Core-XY 7.7 (r1465)"
+	      description="Sailfish Core-XY Firmware 7.7 (r1465).  **Assumes the bot has a power supply capable of running all heaters concurrently with stepper motors at operating currents.**  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="7" minor="6" relpath="firmware/mighty_one-2560-corexy-Sailfish-v7.6.0-r1229.hex"
+	      name="Sailfish Core-XY 7.6 (r1229)"
+	      description="Sailfish Core-XY Firmware 7.6 (r1229).  **Assumes the bot has a power supply capable of running all heaters concurrently with stepper motors at operating currents.**  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <board name="MakerBot Thing-o-Matic (Gen 4)" icon="icon-mb24.png">
+    <version major="2" minor="4"/>
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>m1280</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware major="4" minor="7" relpath="firmware/MB-mb24-Sailfish-v4.7-r1428.hex"
+	name="Sailfish v4.7 (r1428)"
+	description="Sailfish Firmware v4.7 (r1428).  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="4" minor="6" relpath="firmware/MB-mb24-Sailfish-v4.6-r1205.hex"
+	name="Sailfish v4.6 (r1205)"
+	description="Sailfish Firmware v4.6 (r1205).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="4" minor="5" relpath="firmware/MB-mb24-Sailfish-v4.5-r1120.hex"
+	name="Sailfish v4.5 (r1120)"
+	description="Sailfish Firmware v4.5 (r1120).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="4" minor="4" relpath="firmware/MB-mb24-Sailfish-v4.4-r1029.hex"
+	name="Sailfish v4.4 (r1029)"
+	description="Sailfish Firmware v4.4 (r1029).  Requires ReplicatorG 40r16-Sailfish in order to change newer Onboard Parameters."/>
+    <firmware major="4" minor="3" relpath="firmware/MB-mb24-Sailfish-v4.3-r943A.hex"
+	name="Sailfish v4.3 (r943A)"
+	description="Sailfish Firmware v4.3 (r943A). Requires ReplicatorG 40r10-Sailfish in order to change new Onboard Parameters."/>
+    <firmware major="4" minor="2" relpath="firmware/MB-mb24-Sailfish-v4.2-r866.hex"
+	name="Sailfish v4.2 (r866)"
+	description="Sailfish Firmware v4.2 (r866). Requires ReplicatorG 40r5-Sailfish in order to change newer Onboard Parameters.  Obtain from from Thingiverse Thing #32084."/>
+   <firmware major="4" minor="1" relpath="firmware/MB-mb24-Sailfish-v4.1-r720.hex"
+	     name="Sailfish v4.1 (r720)"
+	     description="Sailfish Firmware v4.1 (r720). WARNING: Requires Extruder Controller firmware 3.1 or newer. Requires ReplicatorG 0039-Sailfish. Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+   <firmware major="4" minor="0" relpath="firmware/MB-mb24-Sailfish-v4.0-r642.hex"
+	     name="Sailfish v4.0 (r642)"
+	     description="Sailfish Firmware v4.0 (r642). WARNING: Requires Extruder Controller firmware 3.1 or newer. Requires ReplicatorG 0039-Sailfish. Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+   <firmware major="3" minor="5" relpath="firmware/MB-mb24-Jetty-v3.1-3.5-r507.hex"
+	     name="Jetty Firmware v3.5 (r507)"
+	     description="WARNING: Requires Extruder Controller firmware 3.1 or newer. Requires ReplicatorG 0027 (or newer). Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+   <firmware major="4" minor="7" relpath="firmware/MB-mb24-Sailfish-v4.7-r1428b.hex"
+	name="Sailfish v4.7 (r1428b)"
+	description="Sailfish Firmware v4.7 (r1428b) for bots with broken SD card hardware.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+   <firmware major="4" minor="6" relpath="firmware/MB-mb24-Sailfish-v4.6-r1205b.hex"
+	name="Sailfish v4.6 (r1205b)"
+	description="Sailfish Firmware v4.6 (r1205b) for bots with broken SD card hardware.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+  <board name="MakerBot Thing-o-Matic (Gen 4) with ATmega 2560" icon="icon-mb24.png">
+    <version major="2" minor="4"/>
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v2</protocol>
+      <speed>115200</speed>
+      <arch>m2560</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware
+	major="4" minor="7" relpath="firmware/MB-mb24-2560-Sailfish-v4.7-r1428.hex"
+	name="Sailfish v4.7 (r1428)"
+	description="Sailfish Firmware v4.7 (r1428).  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware
+	major="4" minor="6" relpath="firmware/MB-mb24-2560-Sailfish-v4.6-r1205.hex"
+	name="Sailfish v4.6 (r1205)"
+	description="Sailfish Firmware v4.6 (r1205).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware
+	major="4" minor="5" relpath="firmware/MB-mb24-2560-Sailfish-v4.5-r1120.hex"
+	name="Sailfish v4.5 (r1120)"
+	description="Sailfish Firmware v4.5 (r1120).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware
+	major="4" minor="4" relpath="firmware/MB-mb24-2560-Sailfish-v4.4-r1029.hex"
+	name="Sailfish v4.4 (r1029)"
+	description="Sailfish Firmware v4.4 (r1029).  Requires ReplicatorG 40r16-Sailfish in order to change newer Onboard Parameters."/>
+    <firmware
+	major="4" minor="3" relpath="firmware/MB-mb24-2560-Sailfish-v4.3-r943A.hex"
+	name="Sailfish v4.3 (r943A)"
+	description="Sailfish Firmware v4.3 (r943A). Requires ReplicatorG 40r10-Sailfish in order to change new Onboard Parameters."/>
+    <firmware
+	major="4" minor="2" relpath="firmware/MB-mb24-2560-Sailfish-v4.2-r866.hex"
+	name="Sailfish v4.2 (r866)"
+	description="Sailfish Firmware v4.2 (r866). Requires ReplicatorG 40r5-Sailfish in order to change newer Onboard Parameters.  Obtain from from Thingiverse Thing #32084."/>
+    <firmware major="4" minor="1" relpath="firmware/MB-mb24-2560-Sailfish-v4.1-r720.hex"
+	      name="Sailfish v4.1 (r720)"
+	      description="Sailfish Firmware v4.1 (r720). WARNING: Requires Extruder Controller firmware 3.1 or newer. Requires ReplicatorG 0039-Sailfish. Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+    <firmware major="4" minor="0" relpath="firmware/MB-mb24-2560-Sailfish-v4.0-r642.hex"
+	      name="Sailfish v4.0 (r642)"
+	      description="Sailfish Firmware v4.0 (r642). WARNING: Requires Extruder Controller firmware 3.1 or newer. Requires ReplicatorG 0039-Sailfish. Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+    <firmware major="3" minor="5" relpath="firmware/MB-mb24-2560-Jetty-v3.1-3.5-r507.hex"
+	      name="Jetty Firmware v3.5 (r507)"
+	      description="WARNING: Requires Extruder Controller firmware 3.1 or newer. Requires ReplicatorG 0027 (or newer). Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+    <firmware
+	major="4" minor="7" relpath="firmware/MB-mb24-2560-Sailfish-v4.7-r1428b.hex"
+	name="Sailfish v4.7 (r1428b)"
+	description="Sailfish Firmware v4.7 (r1428b) for bots with broken SD card hardware.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware
+	major="4" minor="6" relpath="firmware/MB-mb24-2560-Sailfish-v4.6-r1205b.hex"
+	name="Sailfish v4.6 (r1205b)"
+	description="Sailfish Firmware v4.6 (r1205b) for bots with broken SD card hardware.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>  </board>
+  <board name="MakerBot Cupcake 3G 5D Shield (Gen 3)">
+    <version major="1" minor="1"/>
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>38400</speed>
+      <arch>m644p</arch>
+      <manualreset>true</manualreset>
+    </programmer>
+    <firmware major="4" minor="7"
+	      relpath="firmware/MB-rrmbv12-Sailfish-v4.7-r1428.hex"
+	      name="Sailfish v4.7 (r1428)"
+	      description="Sailfish Firmware v4.7 (r1428).  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="4" minor="6"
+	      relpath="firmware/MB-rrmbv12-Sailfish-v4.6-r1205.hex"
+	      name="Sailfish v4.6 (r1205)"
+	      description="Sailfish Firmware v4.6 (r1205).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="4" minor="5"
+	      relpath="firmware/MB-rrmbv12-Sailfish-v4.5-r1120.hex"
+	      name="Sailfish v4.5 (r1120)"
+	      description="Sailfish Firmware v4.5 (r1120).  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+    <firmware major="4" minor="4"
+	      relpath="firmware/MB-rrmbv12-Sailfish-v4.4-r1029.hex"
+	      name="Sailfish v4.4 (r1029)"
+	      description="Sailfish Firmware v4.4 (r1029).  Requires ReplicatorG 40r16-Sailfish in order to change newer Onboard Parameters."/>
+    <firmware major="4" minor="3"
+	      relpath="firmware/MB-rrmbv12-3G5DShield-Sailfish-v4.3-r943.hex"
+	      name="Sailfish v4.3 (r943)"
+	      description="Sailfish Firmware v4.3 (r943). Requires ReplicatorG 40r10-Sailfish in order to change new Onboard Parameters."/>
+    <firmware major="4" minor="2"
+	      relpath="firmware/MB-rrmbv12-3G5DShield-Sailfish-v4.2-r870.hex"
+	      name="Sailfish v4.2 (r870)"
+	      description="Sailfish Firmware v4.2 (r870). Requires ReplicatorG 40r5-Sailfish in order to change newer Onboard Parameters.  Obtain from from Thingiverse Thing #32084."/>
+    <firmware major="4" minor="1" relpath="firmware/MB-rrmbv12-3G5DShield-Sailfish-v4.1-r720.hex"
+	      name="Sailfish v4.1 (r720)"
+	      description="Sailfish Firmware v4.1 (r720). WARNING: Requires Extruder Controller firmware 3.0 or newer. Requires ReplicatorG 0039-Sailfish (or newer). Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+    <firmware major="4" minor="0" relpath="firmware/MB-rrmbv12-5DShield-Sailfish-v4.0-r659.hex"
+	      name="Sailfish v4.0 (r659)"
+	      description="Sailfish Firmware v4.0 (r659). WARNING: Requires Extruder Controller firmware 3.0 or newer. Requires ReplicatorG 0039-Sailfish (or newer). Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+    <firmware major="3" minor="5" relpath="firmware/MB-rrmbv12-5DShield-Jetty-v3.1-3.5-r634.hex"
+	      name="Jetty Firmware v3.5 (r634)"
+	      description="This is the specific firmware to support the 3G 5D Shield. WARNING: Requires Extruder Controller firmware 3.0 or newer. Requires ReplicatorG 0026 (or newer). Please upgrade all 3 (Motherboard, Extruders, ReplicatorG) at this time."/>
+    <firmware major="4" minor="7"
+	      relpath="firmware/MB-rrmbv12-Sailfish-v4.7-r1428b.hex"
+	      name="Sailfish v4.7 (r1428b)"
+	      description="Sailfish Firmware v4.7 (r1428b) for bots with broken SD card hardware.  Requires ReplicatorG 40r28-Sailfish or later in order to connect via USB."/>
+    <firmware major="4" minor="6"
+	      relpath="firmware/MB-rrmbv12-Sailfish-v4.6-r1205b.hex"
+	      name="Sailfish v4.6 (r1205b)"
+	      description="Sailfish Firmware v4.6 (r1205b) for bots with broken SD card hardware.  Requires ReplicatorG 40r23-Sailfish or later in order to connect via USB."/>
+  </board>
+</boards>

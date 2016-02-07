@@ -853,7 +853,6 @@ angular.module('starter.controllers', [])
             //  return;
             //}
 
-            // Default values for the request.
             var config = {
 
 
@@ -863,18 +862,30 @@ angular.module('starter.controllers', [])
                 'phonenumber': $scope.phonenumber,
                 'comments': $scope.comments
 
-            };
+
+            }; var contact;
+          // Default values for the request.
+          if($scope.Email = true && $scope.Phone == true){
+            contact = config.email + " or " + config.phonenumber
+          }
+          else{
+          if($scope.Email){
+            contact = config.email
+          }
+            if($scope.Phone){
+              contact = config.phonenumber
+            }}
             var emails = {
                 to: ["josh@technocademy.org"],
                 subject: "Help Needed from Technocademy App",
-                body: config.comments + "/n Contact me at:" + config.email + " or " + config.phonenumber,
+                body: config.comments + "/n Contact me at:" + contact,
                 isHtml: false
             };
             console.log(config.name);
             window.plugin.email.open(emails, function () {
                 console.log("email view dismissed");
             });
-            console.log(config);
+            console.log(contact);
             // Perform JSONP request.
 
 

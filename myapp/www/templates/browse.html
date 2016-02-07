@@ -44,8 +44,16 @@
                                 <span class="label label-danger" data-ng-show="submitted && helpForm.question.$error.required">Required!</span>
                                 <textarea name="question" data-ng-model="comments" class="form-control" placeholder="Question" required style="height:50px;"></textarea>
                             </label>
-                        </div>
+                          <div class="form-group">
+                      <li class="item item-checkbox">
 
+                        <label class="checkbox checkbox-calm">
+                          <input type="checkbox" data-ng-model="Phone"> </label>
+                        Phone </li>
+                            <label class="checkbox checkbox-calm">
+                              <input type="checkbox" data-ng-model="Email"> </label>
+                            Email </li>
+                        </div>
                         <a class="button button-outline icon-right ion-checkmark-round button-calm" style="width:95%; margin:10px;" data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)">Submit</a>
                     </form>
                 </div>
