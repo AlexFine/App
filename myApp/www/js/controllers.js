@@ -872,9 +872,13 @@ angular.module('starter.controllers', [])
           if($scope.Email){
             contact = config.email
           }
-            if($scope.Phone){
+            else if($scope.Phone){
               contact = config.phonenumber
-            }}
+            }
+          else{
+              contact = config.email + " or " + config.phonenumber
+          }}
+
             var emails = {
                 to: ["josh@technocademy.org"],
                 subject: "Help Needed from Technocademy App",
