@@ -44,20 +44,28 @@
                                 <span class="label label-danger" data-ng-show="submitted && helpForm.question.$error.required">Required!</span>
                                 <textarea name="question" data-ng-model="comments" class="form-control" placeholder="Question" required style="height:50px;"></textarea>
                             </label>
-                          <div class="form-group">
+        </center>
 
-                        Preferred Option:
-                        <label class="checkbox checkbox-calm">
-                          <input type="checkbox" data-ng-model="Phone"> </label>
-                        Phone
+        <div class="form-group">
+            <ion-list style="margin:2%;">
+                <ion-checkbox data-ng-model="Phone">Phone</ion-checkbox>
+                <ion-checkbox data-ng-model="Email">Email</ion-checkbox>
+            </ion-list>
+            <!--
+            Preferred Option:
+            <label class="checkbox checkbox-calm">
+                <input type="checkbox" data-ng-model="Phone">Phone </label>
 
-                            <label class="checkbox checkbox-calm">
-                              <input type="checkbox" data-ng-model="Email"> </label>
-                            Email
-                        </div>
-                        <a class="button button-outline icon-right ion-checkmark-round button-calm" style="width:95%; margin:10px;" data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)">Submit</a>
-                    </form>
-                </div>
+
+            <label class="checkbox checkbox-calm">
+                <input type="checkbox" data-ng-model="Email"> </label>
+            Email
+-->
+        </div>
+        <center>
+            <a class="button button-outline icon-right ion-checkmark-round button-calm" style="width:95%; margin:10px;" data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)">Submit</a>
+            </form>
+            </div>
             </div>
         </center>
 
