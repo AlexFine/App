@@ -844,7 +844,8 @@ angular.module('starter.controllers', [])
         //$scope.link = "mailto:"+email.to+"?subject="+encodeURIComponent(email.subject)+"&body="+encodeURIComponent(email.body);
         // Form submit handler.
         console.log($scope.link)
-        $scope.submit = function (form) {
+        $scope.submit = function (form){
+            console.log("test");
             // Trigger validation flag.
             $scope.submitted = true;
 
