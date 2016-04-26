@@ -886,11 +886,11 @@ angular.module('starter.controllers', [])
                 body: config.comments + "/n Contact me at:" + contact,
                 isHtml: false
             };
-            console.log(config.name);
+            // console.log(config.name);
             window.plugin.email.open(emails, function () {
-                console.log("email view dismissed");
+                // console.log("email view dismissed");
             });
-            console.log(contact);
+            // console.log(contact);
             // Perform JSONP request.
 
 
